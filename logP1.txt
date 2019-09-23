@@ -171,3 +171,1140 @@ Pessoa150 chegou no banheiro no tempo: 1566408489.
 Pessoa150 entrou no box no tempo:1566408489.
 Pessoa149 saiu do box no tempo:1566408492.
 Pessoa150 saiu do box no tempo:1566408494.
+Pessoa3 chegou no banheiro no tempo: 1566408932.
+Pessoa3 entrou na fila no tempo:1566408932.
+Pessoa3 entrou no box no tempo:1566408944.
+Pessoa3 saiu do box no tempo:1566408949.
+Pessoa8 chegou no banheiro no tempo: 1566408952.
+Pessoa8 entrou na fila no tempo:1566408952.
+Pessoa8 entrou no box no tempo:1566408952.
+Pessoa8 saiu do box no tempo:1566408957.
+Pessoa10 chegou no banheiro no tempo: 1566408960.
+Pessoa10 entrou no box no tempo:1566408960.
+Pessoa10 saiu do box no tempo:1566408965.
+Pessoa15 chegou no banheiro no tempo: 1566408977.
+Pessoa15 entrou no box no tempo:1566408977.
+Pessoa16 chegou no banheiro no tempo: 1566408980.
+Pessoa16 entrou no box no tempo:1566408980.
+Pessoa15 saiu do box no tempo:1566408982.
+Pessoa17 chegou no banheiro no tempo: 1566408984.
+Pessoa17 entrou no box no tempo:1566408984.
+Pessoa16 saiu do box no tempo:1566408985.
+Pessoa17 saiu do box no tempo:1566408989.
+Pessoa18 chegou no banheiro no tempo: 1566408990.
+Pessoa18 entrou no box no tempo:1566408990.
+Pessoa18 saiu do box no tempo:1566408995.
+Pessoa25 chegou no banheiro no tempo: 1566409021.
+Pessoa25 entrou na fila no tempo:1566409021.
+Pessoa26 chegou no banheiro no tempo: 1566409022.
+Pessoa26 entrou na fila no tempo:1566409022.
+Pessoa25 entrou no box no tempo:1566409023.
+Pessoa26 entrou no box no tempo:1566409023.
+Pessoa26 saiu do box no tempo:1566409028.
+Pessoa25 saiu do box no tempo:1566409028.
+Pessoa29 chegou no banheiro no tempo: 1566409034.
+Pessoa29 entrou na fila no tempo:1566409034.
+Pessoa29 entrou no box no tempo:1566409041.
+Pessoa31 chegou no banheiro no tempo: 1566409043.
+Pessoa31 entrou no box no tempo:1566409043.
+Pessoa29 saiu do box no tempo:1566409046.
+Pessoa31 saiu do box no tempo:1566409048.
+Pessoa32 chegou no banheiro no tempo: 1566409049.
+Pessoa32 entrou no box no tempo:1566409049.
+Pessoa32 saiu do box no tempo:1566409054.
+Pessoa35 chegou no banheiro no tempo: 1566409068.
+Pessoa35 entrou no box no tempo:1566409068.
+Pessoa35 saiu do box no tempo:1566409073.
+Pessoa40 chegou no banheiro no tempo: 1566409095.
+Pessoa40 entrou na fila no tempo:1566409095.
+Pessoa40 entrou no box no tempo:1566409097.
+Pessoa40 saiu do box no tempo:1566409102.
+Pessoa46 chegou no banheiro no tempo: 1566409119.
+Pessoa46 entrou na fila no tempo:1566409119.
+Pessoa46 entrou no box no tempo:1566409122.
+Pessoa47 chegou no banheiro no tempo: 1566409126.
+Pessoa47 entrou no box no tempo:1566409126.
+Pessoa46 saiu do box no tempo:1566409127.
+Pessoa48 chegou no banheiro no tempo: 1566409131.
+Pessoa48 entrou no box no tempo:1566409131.
+Pessoa47 saiu do box no tempo:1566409131.
+Pessoa48 saiu do box no tempo:1566409136.
+Pessoa53 chegou no banheiro no tempo: 1566409148.
+Pessoa53 entrou no box no tempo:1566409148.
+Pessoa53 saiu do box no tempo:1566409153.
+Pessoa56 chegou no banheiro no tempo: 1566409157.
+Pessoa56 entrou na fila no tempo:1566409157.
+Pessoa56 entrou no box no tempo:1566409157.
+Pessoa56 saiu do box no tempo:1566409162.
+Pessoa61 chegou no banheiro no tempo: 1566409173.
+Pessoa61 entrou na fila no tempo:1566409173.
+Pessoa61 entrou no box no tempo:1566409174.
+Pessoa62 chegou no banheiro no tempo: 1566409175.
+Pessoa62 entrou no box no tempo:1566409175.
+Pessoa61 saiu do box no tempo:1566409179.
+Pessoa62 saiu do box no tempo:1566409180.
+Pessoa67 chegou no banheiro no tempo: 1566409199.
+Pessoa67 entrou no box no tempo:1566409199.
+Pessoa67 saiu do box no tempo:1566409204.
+Pessoa68 chegou no banheiro no tempo: 1566409205.
+Pessoa68 entrou no box no tempo:1566409205.
+Pessoa68 saiu do box no tempo:1566409210.
+Pessoa69 chegou no banheiro no tempo: 1566409210.
+Pessoa69 entrou no box no tempo:1566409210.
+Pessoa69 saiu do box no tempo:1566409215.
+Pessoa71 chegou no banheiro no tempo: 1566409216.
+Pessoa71 entrou na fila no tempo:1566409216.
+Pessoa71 entrou no box no tempo:1566409216.
+Pessoa71 saiu do box no tempo:1566409221.
+Pessoa72 chegou no banheiro no tempo: 1566409223.
+Pessoa72 entrou no box no tempo:1566409223.
+Pessoa72 saiu do box no tempo:1566409228.
+Pessoa74 chegou no banheiro no tempo: 1566409235.
+Pessoa74 entrou no box no tempo:1566409235.
+Pessoa74 saiu do box no tempo:1566409240.
+Pessoa77 chegou no banheiro no tempo: 1566409250.
+Pessoa77 entrou na fila no tempo:1566409250.
+Pessoa77 entrou no box no tempo:1566409252.
+Pessoa77 saiu do box no tempo:1566409257.
+Pessoa81 chegou no banheiro no tempo: 1566409258.
+Pessoa81 entrou na fila no tempo:1566409258.
+Pessoa81 entrou no box no tempo:1566409258.
+Pessoa81 saiu do box no tempo:1566409263.
+Pessoa83 chegou no banheiro no tempo: 1566409265.
+Pessoa83 entrou na fila no tempo:1566409265.
+Pessoa84 chegou no banheiro no tempo: 1566409266.
+Pessoa84 entrou na fila no tempo:1566409266.
+Pessoa83 entrou no box no tempo:1566409273.
+Pessoa84 entrou no box no tempo:1566409273.
+Pessoa86 chegou no banheiro no tempo: 1566409275.
+Pessoa86 entrou no box no tempo:1566409275.
+Pessoa84 saiu do box no tempo:1566409278.
+Pessoa83 saiu do box no tempo:1566409278.
+Pessoa86 saiu do box no tempo:1566409280.
+Pessoa90 chegou no banheiro no tempo: 1566409293.
+Pessoa90 entrou na fila no tempo:1566409293.
+Pessoa90 entrou no box no tempo:1566409297.
+Pessoa90 saiu do box no tempo:1566409302.
+Pessoa96 chegou no banheiro no tempo: 1566409321.
+Pessoa96 entrou na fila no tempo:1566409321.
+Pessoa96 entrou no box no tempo:1566409322.
+Pessoa97 chegou no banheiro no tempo: 1566409323.
+Pessoa97 entrou no box no tempo:1566409323.
+Pessoa96 saiu do box no tempo:1566409327.
+Pessoa97 saiu do box no tempo:1566409328.
+Pessoa99 chegou no banheiro no tempo: 1566409333.
+Pessoa99 entrou na fila no tempo:1566409333.
+Pessoa99 entrou no box no tempo:1566409333.
+Pessoa99 saiu do box no tempo:1566409338.
+Pessoa101 chegou no banheiro no tempo: 1566409340.
+Pessoa101 entrou na fila no tempo:1566409340.
+Pessoa101 entrou no box no tempo:1566409344.
+Pessoa103 chegou no banheiro no tempo: 1566409346.
+Pessoa103 entrou no box no tempo:1566409346.
+Pessoa101 saiu do box no tempo:1566409349.
+Pessoa104 chegou no banheiro no tempo: 1566409350.
+Pessoa104 entrou no box no tempo:1566409350.
+Pessoa103 saiu do box no tempo:1566409351.
+Pessoa104 saiu do box no tempo:1566409355.
+Pessoa113 chegou no banheiro no tempo: 1566409389.
+Pessoa113 entrou no box no tempo:1566409389.
+Pessoa114 chegou no banheiro no tempo: 1566409393.
+Pessoa114 entrou no box no tempo:1566409393.
+Pessoa113 saiu do box no tempo:1566409394.
+Pessoa115 chegou no banheiro no tempo: 1566409396.
+Pessoa115 entrou no box no tempo:1566409396.
+Pessoa114 saiu do box no tempo:1566409398.
+Pessoa116 chegou no banheiro no tempo: 1566409398.
+Pessoa116 entrou no box no tempo:1566409398.
+Pessoa115 saiu do box no tempo:1566409401.
+Pessoa116 saiu do box no tempo:1566409403.
+Pessoa117 chegou no banheiro no tempo: 1566409405.
+Pessoa117 entrou no box no tempo:1566409405.
+Pessoa117 saiu do box no tempo:1566409410.
+Pessoa120 chegou no banheiro no tempo: 1566409413.
+Pessoa120 entrou na fila no tempo:1566409413.
+Pessoa120 entrou no box no tempo:1566409413.
+Pessoa120 saiu do box no tempo:1566409418.
+Pessoa121 chegou no banheiro no tempo: 1566409419.
+Pessoa121 entrou no box no tempo:1566409419.
+Pessoa121 saiu do box no tempo:1566409424.
+Pessoa123 chegou no banheiro no tempo: 1566409427.
+Pessoa123 entrou na fila no tempo:1566409427.
+Pessoa123 entrou no box no tempo:1566409427.
+Pessoa123 saiu do box no tempo:1566409432.
+Pessoa125 chegou no banheiro no tempo: 1566409437.
+Pessoa125 entrou no box no tempo:1566409437.
+Pessoa125 saiu do box no tempo:1566409442.
+Pessoa127 chegou no banheiro no tempo: 1566409442.
+Pessoa127 entrou na fila no tempo:1566409442.
+Pessoa127 entrou no box no tempo:1566409442.
+Pessoa127 saiu do box no tempo:1566409447.
+Pessoa128 chegou no banheiro no tempo: 1566409448.
+Pessoa128 entrou no box no tempo:1566409448.
+Pessoa128 saiu do box no tempo:1566409453.
+Pessoa132 chegou no banheiro no tempo: 1566409465.
+Pessoa132 entrou no box no tempo:1566409465.
+Pessoa132 saiu do box no tempo:1566409470.
+Pessoa142 chegou no banheiro no tempo: 1566409509.
+Pessoa142 entrou na fila no tempo:1566409509.
+Pessoa142 entrou no box no tempo:1566409510.
+Pessoa143 chegou no banheiro no tempo: 1566409510.
+Pessoa143 entrou no box no tempo:1566409510.
+Pessoa142 saiu do box no tempo:1566409515.
+Pessoa143 saiu do box no tempo:1566409515.
+Pessoa144 chegou no banheiro no tempo: 1566409517.
+Pessoa144 entrou no box no tempo:1566409517.
+Pessoa144 saiu do box no tempo:1566409522.
+Pessoa150 chegou no banheiro no tempo: 1566409545.
+Pessoa150 entrou na fila no tempo:1566409545.
+Pessoa151 chegou no banheiro no tempo: 1566409546.
+Pessoa151 entrou na fila no tempo:1566409546.
+Pessoa151 entrou no box no tempo:1566409549.
+Pessoa150 entrou no box no tempo:1566409549.
+Pessoa152 chegou no banheiro no tempo: 1566409551.
+Pessoa152 entrou no box no tempo:1566409551.
+Pessoa150 saiu do box no tempo:1566409554.
+Pessoa151 saiu do box no tempo:1566409554.
+Pessoa152 saiu do box no tempo:1566409556.
+Pessoa155 chegou no banheiro no tempo: 1566409559.
+Pessoa155 entrou na fila no tempo:1566409559.
+Pessoa155 entrou no box no tempo:1566409559.
+Pessoa155 saiu do box no tempo:1566409564.
+Pessoa158 chegou no banheiro no tempo: 1566409579.
+Pessoa158 entrou no box no tempo:1566409579.
+Pessoa159 chegou no banheiro no tempo: 1566409583.
+Pessoa159 entrou no box no tempo:1566409583.
+Pessoa158 saiu do box no tempo:1566409584.
+Pessoa160 chegou no banheiro no tempo: 1566409585.
+Pessoa160 entrou no box no tempo:1566409585.
+Pessoa161 chegou no banheiro no tempo: 1566409587.
+Pessoa161 entrou no box no tempo:1566409587.
+Pessoa159 saiu do box no tempo:1566409588.
+Pessoa163 chegou no banheiro no tempo: 1566409589.
+Pessoa163 entrou no box no tempo:1566409589.
+Pessoa160 saiu do box no tempo:1566409590.
+Pessoa161 saiu do box no tempo:1566409592.
+Pessoa163 saiu do box no tempo:1566409594.
+Pessoa165 chegou no banheiro no tempo: 1566409602.
+Pessoa165 entrou na fila no tempo:1566409602.
+Pessoa165 entrou no box no tempo:1566409604.
+Pessoa166 chegou no banheiro no tempo: 1566409604.
+Pessoa166 entrou no box no tempo:1566409604.
+Pessoa165 saiu do box no tempo:1566409609.
+Pessoa166 saiu do box no tempo:1566409609.
+Pessoa173 chegou no banheiro no tempo: 1566409628.
+Pessoa173 entrou no box no tempo:1566409628.
+Pessoa173 saiu do box no tempo:1566409633.
+Pessoa177 chegou no banheiro no tempo: 1566409643.
+Pessoa177 entrou na fila no tempo:1566409643.
+Pessoa177 entrou no box no tempo:1566409653.
+Pessoa177 saiu do box no tempo:1566409658.
+Pessoa5 chegou no banheiro no tempo: 1569261872.
+Pessoa5 entrou na fila no tempo:1569261872.
+Pessoa5 entrou no box no tempo:1569261874.
+Pessoa5 saiu do box no tempo:1569261879.
+Pessoa7 chegou no banheiro no tempo: 1569261882.
+Pessoa7 entrou na fila no tempo:1569261882.
+Pessoa7 entrou no box no tempo:1569261884.
+Pessoa7 saiu do box no tempo:1569261889.
+Pessoa10 chegou no banheiro no tempo: 1569261894.
+Pessoa10 entrou na fila no tempo:1569261894.
+Pessoa10 entrou no box no tempo:1569261894.
+Pessoa11 chegou no banheiro no tempo: 1569261898.
+Pessoa11 entrou na fila no tempo:1569261898.
+Pessoa11 entrou no box no tempo:1569261898.
+Pessoa10 saiu do box no tempo:1569261899.
+Pessoa12 chegou no banheiro no tempo: 1569261899.
+Pessoa12 entrou na fila no tempo:1569261899.
+Pessoa12 entrou no box no tempo:1569261899.
+Pessoa11 saiu do box no tempo:1569261903.
+Pessoa12 saiu do box no tempo:1569261904.
+Pessoa19 chegou no banheiro no tempo: 1569261934.
+Pessoa19 entrou na fila no tempo:1569261934.
+Pessoa19 entrou no box no tempo:1569261940.
+Pessoa19 saiu do box no tempo:1569261945.
+Pessoa23 chegou no banheiro no tempo: 1569261948.
+Pessoa23 entrou na fila no tempo:1569261948.
+Pessoa23 entrou no box no tempo:1569261951.
+Pessoa23 saiu do box no tempo:1569261956.
+Pessoa26 chegou no banheiro no tempo: 1569261959.
+Pessoa26 entrou na fila no tempo:1569261959.
+Pessoa26 entrou no box no tempo:1569261959.
+Pessoa26 saiu do box no tempo:1569261964.
+Pessoa27 chegou no banheiro no tempo: 1569261966.
+Pessoa27 entrou na fila no tempo:1569261966.
+Pessoa27 entrou no box no tempo:1569261966.
+Pessoa28 chegou no banheiro no tempo: 1569261970.
+Pessoa28 entrou na fila no tempo:1569261970.
+Pessoa28 entrou no box no tempo:1569261970.
+Pessoa27 saiu do box no tempo:1569261971.
+Pessoa30 chegou no banheiro no tempo: 1569261972.
+Pessoa30 entrou na fila no tempo:1569261972.
+Pessoa30 entrou no box no tempo:1569261972.
+Pessoa31 chegou no banheiro no tempo: 1569261973.
+Pessoa31 entrou na fila no tempo:1569261973.
+Pessoa31 entrou no box no tempo:1569261973.
+Pessoa28 saiu do box no tempo:1569261975.
+Pessoa30 saiu do box no tempo:1569261977.
+Pessoa31 saiu do box no tempo:1569261978.
+Pessoa32 chegou no banheiro no tempo: 1569261978.
+Pessoa32 entrou no box no tempo:1569261978.
+Pessoa32 saiu do box no tempo:1569261983.
+Pessoa33 chegou no banheiro no tempo: 1569261983.
+Pessoa33 entrou no box no tempo:1569261983.
+Pessoa33 saiu do box no tempo:1569261988.
+Pessoa34 chegou no banheiro no tempo: 1569261988.
+Pessoa34 entrou no box no tempo:1569261988.
+Pessoa34 saiu do box no tempo:1569261993.
+Pessoa36 chegou no banheiro no tempo: 1569262000.
+Pessoa36 entrou na fila no tempo:1569262000.
+Pessoa36 entrou no box no tempo:1569262000.
+Pessoa36 saiu do box no tempo:1569262005.
+Pessoa39 chegou no banheiro no tempo: 1569262018.
+Pessoa39 entrou no box no tempo:1569262018.
+Pessoa39 saiu do box no tempo:1569262023.
+Pessoa42 chegou no banheiro no tempo: 1569262027.
+Pessoa42 entrou na fila no tempo:1569262027.
+Pessoa42 entrou no box no tempo:1569262027.
+Pessoa42 saiu do box no tempo:1569262032.
+Pessoa44 chegou no banheiro no tempo: 1569262036.
+Pessoa44 entrou na fila no tempo:1569262036.
+Pessoa44 entrou no box no tempo:1569262036.
+Pessoa45 chegou no banheiro no tempo: 1569262040.
+Pessoa45 entrou na fila no tempo:1569262040.
+Pessoa45 entrou no box no tempo:1569262040.
+Pessoa44 saiu do box no tempo:1569262041.
+Pessoa45 saiu do box no tempo:1569262045.
+Pessoa7 chegou no banheiro no tempo: 1569262200.
+Pessoa7 entrou na fila no tempo:1569262200.
+Pessoa7 entrou no box no tempo:1569262203.
+Pessoa7 saiu do box no tempo:1569262208.
+Pessoa9 chegou no banheiro no tempo: 1569262210.
+Pessoa9 entrou na fila no tempo:1569262210.
+Pessoa9 entrou no box no tempo:1569262210.
+Pessoa10 chegou no banheiro no tempo: 1569262212.
+Pessoa10 entrou na fila no tempo:1569262212.
+Pessoa10 entrou no box no tempo:1569262212.
+Pessoa9 saiu do box no tempo:1569262215.
+Pessoa10 saiu do box no tempo:1569262217.
+Pessoa13 chegou no banheiro no tempo: 1569262222.
+Pessoa13 entrou na fila no tempo:1569262222.
+Pessoa14 chegou no banheiro no tempo: 1569262224.
+Pessoa14 entrou na fila no tempo:1569262224.
+Pessoa13 entrou no box no tempo:1569262227.
+Pessoa14 entrou no box no tempo:1569262227.
+Pessoa13 saiu do box no tempo:1569262232.
+Pessoa14 saiu do box no tempo:1569262232.
+Pessoa17 chegou no banheiro no tempo: 1569262241.
+Pessoa17 entrou no box no tempo:1569262241.
+Pessoa17 saiu do box no tempo:1569262246.
+Pessoa19 chegou no banheiro no tempo: 1569262250.
+Pessoa19 entrou na fila no tempo:1569262250.
+Pessoa19 entrou no box no tempo:1569262250.
+Pessoa19 saiu do box no tempo:1569262255.
+Pessoa25 chegou no banheiro no tempo: 1569262272.
+Pessoa25 entrou na fila no tempo:1569262272.
+Pessoa25 entrou no box no tempo:1569262276.
+Pessoa25 saiu do box no tempo:1569262281.
+Pessoa27 chegou no banheiro no tempo: 1569262281.
+Pessoa27 entrou na fila no tempo:1569262281.
+Pessoa27 entrou no box no tempo:1569262281.
+Pessoa27 saiu do box no tempo:1569262286.
+Pessoa31 chegou no banheiro no tempo: 1569262294.
+Pessoa31 entrou no box no tempo:1569262294.
+Pessoa31 saiu do box no tempo:1569262299.
+Pessoa37 chegou no banheiro no tempo: 1569262311.
+Pessoa37 entrou na fila no tempo:1569262311.
+Pessoa37 entrou no box no tempo:1569262320.
+Pessoa37 saiu do box no tempo:1569262325.
+Pessoa45 chegou no banheiro no tempo: 1569262341.
+Pessoa45 entrou na fila no tempo:1569262341.
+Pessoa47 chegou no banheiro no tempo: 1569262348.
+Pessoa47 entrou na fila no tempo:1569262348.
+Pessoa45 entrou no box no tempo:1569262349.
+Pessoa47 entrou no box no tempo:1569262349.
+Pessoa45 saiu do box no tempo:1569262354.
+Pessoa47 saiu do box no tempo:1569262354.
+Pessoa50 chegou no banheiro no tempo: 1569262363.
+Pessoa50 entrou na fila no tempo:1569262363.
+Pessoa50 entrou no box no tempo:1569262365.
+Pessoa50 saiu do box no tempo:1569262370.
+Pessoa55 chegou no banheiro no tempo: 1569262382.
+Pessoa55 entrou na fila no tempo:1569262382.
+Pessoa58 chegou no banheiro no tempo: 1569262392.
+Pessoa58 entrou na fila no tempo:1569262392.
+Pessoa55 entrou no box no tempo:1569262395.
+Pessoa58 entrou no box no tempo:1569262395.
+Pessoa59 chegou no banheiro no tempo: 1569262399.
+Pessoa59 entrou no box no tempo:1569262399.
+Pessoa55 saiu do box no tempo:1569262400.
+Pessoa58 saiu do box no tempo:1569262400.
+Pessoa59 saiu do box no tempo:1569262404.
+Pessoa61 chegou no banheiro no tempo: 1569262406.
+Pessoa61 entrou na fila no tempo:1569262406.
+Pessoa61 entrou no box no tempo:1569262410.
+Pessoa61 saiu do box no tempo:1569262415.
+Pessoa64 chegou no banheiro no tempo: 1569262421.
+Pessoa64 entrou na fila no tempo:1569262421.
+Pessoa64 entrou no box no tempo:1569262421.
+Pessoa64 saiu do box no tempo:1569262426.
+Pessoa69 chegou no banheiro no tempo: 1569262441.
+Pessoa69 entrou no box no tempo:1569262441.
+Pessoa69 saiu do box no tempo:1569262446.
+Pessoa75 chegou no banheiro no tempo: 1569262459.
+Pessoa75 entrou no box no tempo:1569262459.
+Pessoa76 chegou no banheiro no tempo: 1569262460.
+Pessoa76 entrou no box no tempo:1569262460.
+Pessoa75 saiu do box no tempo:1569262464.
+Pessoa76 saiu do box no tempo:1569262465.
+Pessoa79 chegou no banheiro no tempo: 1569262475.
+Pessoa79 entrou na fila no tempo:1569262475.
+Pessoa79 entrou no box no tempo:1569262477.
+Pessoa79 saiu do box no tempo:1569262482.
+Pessoa80 chegou no banheiro no tempo: 1569262482.
+Pessoa80 entrou no box no tempo:1569262482.
+Pessoa81 chegou no banheiro no tempo: 1569262483.
+Pessoa81 entrou no box no tempo:1569262483.
+Pessoa80 saiu do box no tempo:1569262487.
+Pessoa81 saiu do box no tempo:1569262488.
+Pessoa82 chegou no banheiro no tempo: 1569262490.
+Pessoa82 entrou no box no tempo:1569262490.
+Pessoa82 saiu do box no tempo:1569262495.
+Pessoa84 chegou no banheiro no tempo: 1569262496.
+Pessoa84 entrou na fila no tempo:1569262496.
+Pessoa84 entrou no box no tempo:1569262496.
+Pessoa84 saiu do box no tempo:1569262501.
+Pessoa89 chegou no banheiro no tempo: 1569262523.
+Pessoa89 entrou na fila no tempo:1569262523.
+Pessoa89 entrou no box no tempo:1569262531.
+Pessoa91 chegou no banheiro no tempo: 1569262533.
+Pessoa91 entrou no box no tempo:1569262533.
+Pessoa89 saiu do box no tempo:1569262536.
+Pessoa91 saiu do box no tempo:1569262538.
+Pessoa93 chegou no banheiro no tempo: 1569262546.
+Pessoa93 entrou no box no tempo:1569262546.
+Pessoa94 chegou no banheiro no tempo: 1569262547.
+Pessoa94 entrou no box no tempo:1569262547.
+Pessoa93 saiu do box no tempo:1569262551.
+Pessoa94 saiu do box no tempo:1569262552.
+Pessoa102 chegou no banheiro no tempo: 1569262578.
+Pessoa102 entrou na fila no tempo:1569262578.
+Pessoa102 entrou no box no tempo:1569262579.
+Pessoa102 saiu do box no tempo:1569262584.
+Pessoa104 chegou no banheiro no tempo: 1569262592.
+Pessoa104 entrou no box no tempo:1569262592.
+Pessoa104 saiu do box no tempo:1569262597.
+Pessoa105 chegou no banheiro no tempo: 1569262599.
+Pessoa105 entrou no box no tempo:1569262599.
+Pessoa105 saiu do box no tempo:1569262604.
+Pessoa106 chegou no banheiro no tempo: 1569262605.
+Pessoa106 entrou no box no tempo:1569262605.
+Pessoa106 saiu do box no tempo:1569262610.
+Pessoa111 chegou no banheiro no tempo: 1569262613.
+Pessoa111 entrou na fila no tempo:1569262613.
+Pessoa111 entrou no box no tempo:1569262613.
+Pessoa111 saiu do box no tempo:1569262618.
+Pessoa112 chegou no banheiro no tempo: 1569262619.
+Pessoa112 entrou na fila no tempo:1569262619.
+Pessoa112 entrou no box no tempo:1569262619.
+Pessoa112 saiu do box no tempo:1569262624.
+Pessoa113 chegou no banheiro no tempo: 1569262624.
+Pessoa113 entrou no box no tempo:1569262624.
+Pessoa113 saiu do box no tempo:1569262629.
+Pessoa117 chegou no banheiro no tempo: 1569262640.
+Pessoa117 entrou na fila no tempo:1569262640.
+Pessoa117 entrou no box no tempo:1569262643.
+Pessoa117 saiu do box no tempo:1569262648.
+Pessoa122 chegou no banheiro no tempo: 1569262661.
+Pessoa122 entrou na fila no tempo:1569262661.
+Pessoa122 entrou no box no tempo:1569262663.
+Pessoa123 chegou no banheiro no tempo: 1569262666.
+Pessoa123 entrou no box no tempo:1569262666.
+Pessoa122 saiu do box no tempo:1569262668.
+Pessoa123 saiu do box no tempo:1569262671.
+Pessoa124 chegou no banheiro no tempo: 1569262672.
+Pessoa124 entrou no box no tempo:1569262672.
+Pessoa124 saiu do box no tempo:1569262677.
+Pessoa128 chegou no banheiro no tempo: 1569262686.
+Pessoa128 entrou na fila no tempo:1569262686.
+Pessoa128 entrou no box no tempo:1569262686.
+Pessoa128 saiu do box no tempo:1569262691.
+Pessoa133 chegou no banheiro no tempo: 1569262700.
+Pessoa133 entrou na fila no tempo:1569262700.
+Pessoa133 entrou no box no tempo:1569262703.
+Pessoa134 chegou no banheiro no tempo: 1569262707.
+Pessoa134 entrou no box no tempo:1569262707.
+Pessoa133 saiu do box no tempo:1569262708.
+Pessoa134 saiu do box no tempo:1569262712.
+Pessoa138 chegou no banheiro no tempo: 1569262723.
+Pessoa138 entrou na fila no tempo:1569262723.
+Pessoa138 entrou no box no tempo:1569262725.
+Pessoa138 saiu do box no tempo:1569262730.
+Pessoa149 chegou no banheiro no tempo: 1569262753.
+Pessoa149 entrou na fila no tempo:1569262753.
+Pessoa149 entrou no box no tempo:1569262765.
+Pessoa149 saiu do box no tempo:1569262770.
+Pessoa157 chegou no banheiro no tempo: 1569262791.
+Pessoa157 entrou na fila no tempo:1569262791.
+Pessoa157 entrou no box no tempo:1569262792.
+Pessoa157 saiu do box no tempo:1569262797.
+Pessoa159 chegou no banheiro no tempo: 1569262800.
+Pessoa159 entrou na fila no tempo:1569262800.
+Pessoa159 entrou no box no tempo:1569262803.
+Pessoa159 saiu do box no tempo:1569262808.
+Pessoa162 chegou no banheiro no tempo: 1569262818.
+Pessoa162 entrou no box no tempo:1569262818.
+Pessoa162 saiu do box no tempo:1569262823.
+Pessoa164 chegou no banheiro no tempo: 1569262829.
+Pessoa164 entrou na fila no tempo:1569262829.
+Pessoa164 entrou no box no tempo:1569262830.
+Pessoa165 chegou no banheiro no tempo: 1569262833.
+Pessoa165 entrou no box no tempo:1569262833.
+Pessoa164 saiu do box no tempo:1569262835.
+Pessoa165 saiu do box no tempo:1569262838.
+Pessoa169 chegou no banheiro no tempo: 1569262852.
+Pessoa169 entrou na fila no tempo:1569262852.
+Pessoa169 entrou no box no tempo:1569262854.
+Pessoa169 saiu do box no tempo:1569262859.
+Pessoa171 chegou no banheiro no tempo: 1569262865.
+Pessoa171 entrou no box no tempo:1569262865.
+Pessoa172 chegou no banheiro no tempo: 1569262866.
+Pessoa172 entrou no box no tempo:1569262866.
+Pessoa171 saiu do box no tempo:1569262870.
+Pessoa172 saiu do box no tempo:1569262871.
+Pessoa173 chegou no banheiro no tempo: 1569262872.
+Pessoa173 entrou no box no tempo:1569262872.
+Pessoa173 saiu do box no tempo:1569262877.
+Pessoa176 chegou no banheiro no tempo: 1569262887.
+Pessoa176 entrou na fila no tempo:1569262887.
+Pessoa178 chegou no banheiro no tempo: 1569262891.
+Pessoa178 entrou na fila no tempo:1569262891.
+Pessoa178 entrou no box no tempo:1569262893.
+Pessoa176 entrou no box no tempo:1569262893.
+Pessoa178 saiu do box no tempo:1569262898.
+Pessoa176 saiu do box no tempo:1569262898.
+Pessoa181 chegou no banheiro no tempo: 1569262905.
+Pessoa181 entrou no box no tempo:1569262905.
+Pessoa182 chegou no banheiro no tempo: 1569262907.
+Pessoa182 entrou no box no tempo:1569262907.
+Pessoa181 saiu do box no tempo:1569262910.
+Pessoa182 saiu do box no tempo:1569262912.
+Pessoa185 chegou no banheiro no tempo: 1569262920.
+Pessoa185 entrou na fila no tempo:1569262920.
+Pessoa185 entrou no box no tempo:1569262921.
+Pessoa186 chegou no banheiro no tempo: 1569262921.
+Pessoa186 entrou no box no tempo:1569262921.
+Pessoa185 saiu do box no tempo:1569262926.
+Pessoa186 saiu do box no tempo:1569262926.
+Pessoa188 chegou no banheiro no tempo: 1569262932.
+Pessoa188 entrou no box no tempo:1569262932.
+Pessoa189 chegou no banheiro no tempo: 1569262935.
+Pessoa189 entrou no box no tempo:1569262935.
+Pessoa188 saiu do box no tempo:1569262937.
+Pessoa189 saiu do box no tempo:1569262940.
+Pessoa195 chegou no banheiro no tempo: 1569262956.
+Pessoa195 entrou no box no tempo:1569262956.
+Pessoa195 saiu do box no tempo:1569262961.
+Pessoa196 chegou no banheiro no tempo: 1569262961.
+Pessoa196 entrou no box no tempo:1569262961.
+Pessoa197 chegou no banheiro no tempo: 1569262965.
+Pessoa197 entrou no box no tempo:1569262965.
+Pessoa196 saiu do box no tempo:1569262966.
+Pessoa197 saiu do box no tempo:1569262970.
+Pessoa1 chegou no banheiro no tempo: 1569266903.
+Pessoa1 entrou no box no tempo:1569266903.
+Pessoa2 chegou no banheiro no tempo: 1569266904.
+Pessoa2 entrou na fila no tempo:1569266904.
+Pessoa1 saiu do box no tempo:1569266908.
+Pessoa2 entrou no box no tempo:1569266908.
+Pessoa2 saiu do box no tempo:1569266913.
+Pessoa10 chegou no banheiro no tempo: 1569266934.
+Pessoa10 entrou na fila no tempo:1569266934.
+Pessoa12 chegou no banheiro no tempo: 1569266945.
+Pessoa12 entrou na fila no tempo:1569266945.
+Pessoa13 chegou no banheiro no tempo: 1569266950.
+Pessoa13 entrou na fila no tempo:1569266950.
+Pessoa10 entrou no box no tempo:1569266953.
+Pessoa10 saiu do box no tempo:1569266958.
+Pessoa12 entrou no box no tempo:1569266958.
+Pessoa12 saiu do box no tempo:1569266963.
+Pessoa13 entrou no box no tempo:1569266963.
+Pessoa16 chegou no banheiro no tempo: 1569266963.
+Pessoa16 entrou na fila no tempo:1569266963.
+Pessoa13 saiu do box no tempo:1569266968.
+Pessoa18 chegou no banheiro no tempo: 1569266970.
+Pessoa18 entrou na fila no tempo:1569266970.
+Pessoa19 chegou no banheiro no tempo: 1569266973.
+Pessoa19 entrou na fila no tempo:1569266973.
+Pessoa22 chegou no banheiro no tempo: 1569266987.
+Pessoa22 entrou na fila no tempo:1569266987.
+Pessoa25 chegou no banheiro no tempo: 1569266994.
+Pessoa19 entrou no box no tempo:1569266994.
+Pessoa22 entrou na fila no tempo:1569266994.
+Pessoa16 entrou na fila no tempo:1569266994.
+Pessoa18 entrou na fila no tempo:1569266994.
+Pessoa25 entrou na fila no tempo:1569266994.
+Pessoa19 saiu do box no tempo:1569266999.
+Pessoa22 entrou no box no tempo:1569266999.
+Pessoa22 saiu do box no tempo:1569267004.
+Pessoa16 entrou no box no tempo:1569267004.
+Pessoa16 saiu do box no tempo:1569267009.
+Pessoa25 entrou no box no tempo:1569267009.
+Pessoa28 chegou no banheiro no tempo: 1569267013.
+Pessoa28 entrou na fila no tempo:1569267013.
+Pessoa25 saiu do box no tempo:1569267014.
+Pessoa28 entrou no box no tempo:1569267014.
+Pessoa28 saiu do box no tempo:1569267019.
+Pessoa29 chegou no banheiro no tempo: 1569267019.
+Pessoa29 entrou na fila no tempo:1569267019.
+Pessoa30 chegou no banheiro no tempo: 1569267021.
+Pessoa30 entrou na fila no tempo:1569267021.
+Pessoa29 entrou no box no tempo:1569267024.
+Pessoa29 saiu do box no tempo:1569267029.
+Pessoa18 entrou no box no tempo:1569267034.
+Pessoa18 saiu do box no tempo:1569267039.
+Pessoa30 entrou no box no tempo:1569267039.
+Pessoa36 chegou no banheiro no tempo: 1569267039.
+Pessoa36 entrou na fila no tempo:1569267039.
+Pessoa30 saiu do box no tempo:1569267044.
+Pessoa43 chegou no banheiro no tempo: 1569267064.
+Pessoa43 entrou na fila no tempo:1569267064.
+Pessoa45 chegou no banheiro no tempo: 1569267071.
+Pessoa45 entrou na fila no tempo:1569267071.
+Pessoa47 chegou no banheiro no tempo: 1569267078.
+Pessoa47 entrou na fila no tempo:1569267078.
+Pessoa48 chegou no banheiro no tempo: 1569267084.
+Pessoa36 entrou na fila no tempo:1569267084.
+Pessoa45 entrou na fila no tempo:1569267084.
+Pessoa48 entrou na fila no tempo:1569267084.
+Pessoa47 entrou na fila no tempo:1569267084.
+Pessoa43 entrou na fila no tempo:1569267084.
+Pessoa51 chegou no banheiro no tempo: 1569267099.
+Pessoa51 entrou na fila no tempo:1569267099.
+Pessoa52 chegou no banheiro no tempo: 1569267103.
+Pessoa52 entrou na fila no tempo:1569267103.
+Pessoa47 entrou no box no tempo:1569267104.
+Pessoa47 saiu do box no tempo:1569267109.
+Pessoa48 entrou no box no tempo:1569267109.
+Pessoa48 saiu do box no tempo:1569267114.
+Pessoa45 entrou no box no tempo:1569267114.
+Pessoa45 saiu do box no tempo:1569267119.
+Pessoa36 entrou no box no tempo:1569267119.
+Pessoa36 saiu do box no tempo:1569267124.
+Pessoa43 entrou no box no tempo:1569267124.
+Pessoa43 saiu do box no tempo:1569267129.
+Pessoa51 entrou no box no tempo:1569267154.
+Pessoa51 saiu do box no tempo:1569267159.
+Pessoa52 entrou no box no tempo:1569267159.
+Pessoa52 saiu do box no tempo:1569267164.
+Pessoa1 chegou no banheiro no tempo: 1569267323.
+Pessoa1 entrou no box no tempo:1569267323.
+Pessoa1 saiu do box no tempo:1569267328.
+Pessoa5 chegou no banheiro no tempo: 1569267334.
+Pessoa5 entrou na fila no tempo:1569267334.
+Pessoa6 chegou no banheiro no tempo: 1569267338.
+Pessoa6 entrou na fila no tempo:1569267338.
+Pessoa5 entrou no box no tempo:1569267339.
+Pessoa5 saiu do box no tempo:1569267344.
+Pessoa6 entrou no box no tempo:1569267344.
+Pessoa6 saiu do box no tempo:1569267349.
+Pessoa11 chegou no banheiro no tempo: 1569267356.
+Pessoa11 entrou na fila no tempo:1569267356.
+Pessoa12 chegou no banheiro no tempo: 1569267363.
+Pessoa12 entrou na fila no tempo:1569267363.
+Pessoa11 entrou no box no tempo:1569267374.
+Pessoa11 saiu do box no tempo:1569267379.
+Pessoa12 entrou no box no tempo:1569267379.
+Pessoa16 chegou no banheiro no tempo: 1569267379.
+Pessoa16 entrou na fila no tempo:1569267379.
+Pessoa12 saiu do box no tempo:1569267384.
+Pessoa17 chegou no banheiro no tempo: 1569267384.
+Pessoa17 entrou na fila no tempo:1569267384.
+Pessoa16 entrou no box no tempo:1569267399.
+Pessoa21 chegou no banheiro no tempo: 1569267400.
+Pessoa21 entrou na fila no tempo:1569267400.
+Pessoa22 chegou no banheiro no tempo: 1569267402.
+Pessoa22 entrou na fila no tempo:1569267402.
+Pessoa16 saiu do box no tempo:1569267404.
+Pessoa17 entrou no box no tempo:1569267404.
+Pessoa17 saiu do box no tempo:1569267409.
+Pessoa25 chegou no banheiro no tempo: 1569267417.
+Pessoa25 entrou na fila no tempo:1569267417.
+Pessoa26 chegou no banheiro no tempo: 1569267423.
+Pessoa26 entrou na fila no tempo:1569267423.
+Pessoa21 entrou no box no tempo:1569267424.
+Pessoa21 saiu do box no tempo:1569267429.
+Pessoa22 entrou no box no tempo:1569267429.
+Pessoa22 saiu do box no tempo:1569267434.
+Pessoa31 chegou no banheiro no tempo: 1569267448.
+Pessoa31 entrou na fila no tempo:1569267448.
+Pessoa26 entrou no box no tempo:1569267449.
+Pessoa26 saiu do box no tempo:1569267454.
+Pessoa25 entrou no box no tempo:1569267469.
+Pessoa36 chegou no banheiro no tempo: 1569267469.
+Pessoa36 entrou na fila no tempo:1569267469.
+Pessoa25 saiu do box no tempo:1569267474.
+Pessoa31 entrou no box no tempo:1569267474.
+Pessoa38 chegou no banheiro no tempo: 1569267476.
+Pessoa38 entrou na fila no tempo:1569267476.
+Pessoa31 saiu do box no tempo:1569267479.
+Pessoa40 chegou no banheiro no tempo: 1569267488.
+Pessoa40 entrou na fila no tempo:1569267488.
+Pessoa36 entrou no box no tempo:1569267499.
+Pessoa36 saiu do box no tempo:1569267504.
+Pessoa38 entrou no box no tempo:1569267504.
+Pessoa38 saiu do box no tempo:1569267509.
+Pessoa40 entrou no box no tempo:1569267519.
+Pessoa40 saiu do box no tempo:1569267524.
+Pessoa53 chegou no banheiro no tempo: 1569267542.
+Pessoa53 entrou na fila no tempo:1569267542.
+Pessoa54 chegou no banheiro no tempo: 1569267546.
+Pessoa54 entrou na fila no tempo:1569267546.
+Pessoa56 chegou no banheiro no tempo: 1569267555.
+Pessoa56 entrou na fila no tempo:1569267555.
+Pessoa59 chegou no banheiro no tempo: 1569267569.
+Pessoa59 entrou na fila no tempo:1569267569.
+Pessoa60 chegou no banheiro no tempo: 1569267572.
+Pessoa60 entrou na fila no tempo:1569267572.
+Pessoa53 entrou no box no tempo:1569267584.
+Pessoa53 saiu do box no tempo:1569267589.
+Pessoa54 entrou no box no tempo:1569267589.
+Pessoa54 saiu do box no tempo:1569267594.
+Pessoa56 entrou no box no tempo:1569267599.
+Pessoa56 saiu do box no tempo:1569267604.
+Pessoa59 entrou no box no tempo:1569267614.
+Pessoa59 saiu do box no tempo:1569267619.
+Pessoa60 entrou no box no tempo:1569267619.
+Pessoa60 saiu do box no tempo:1569267624.
+Pessoa6 chegou no banheiro no tempo: 1569267805.
+Pessoa6 entrou na fila no tempo:1569267805.
+Pessoa6 entrou no box no tempo:1569267808.
+Pessoa6 saiu do box no tempo:1569267813.
+Pessoa13 chegou no banheiro no tempo: 1569267838.
+Pessoa13 entrou na fila no tempo:1569267838.
+Pessoa14 chegou no banheiro no tempo: 1569267839.
+Pessoa14 entrou na fila no tempo:1569267839.
+Pessoa13 entrou no box no tempo:1569267839.
+Pessoa14 entrou no box no tempo:1569267839.
+Pessoa13 saiu do box no tempo:1569267844.
+Pessoa14 saiu do box no tempo:1569267844.
+Pessoa18 chegou no banheiro no tempo: 1569267859.
+Pessoa18 entrou no box no tempo:1569267859.
+Pessoa18 saiu do box no tempo:1569267864.
+Pessoa23 chegou no banheiro no tempo: 1569267878.
+Pessoa23 entrou na fila no tempo:1569267878.
+Pessoa23 entrou no box no tempo:1569267882.
+Pessoa23 saiu do box no tempo:1569267887.
+Pessoa37 chegou no banheiro no tempo: 1569267938.
+Pessoa37 entrou no box no tempo:1569267938.
+Pessoa38 chegou no banheiro no tempo: 1569267939.
+Pessoa38 entrou no box no tempo:1569267939.
+Pessoa37 saiu do box no tempo:1569267943.
+Pessoa38 saiu do box no tempo:1569267944.
+Pessoa40 chegou no banheiro no tempo: 1569267949.
+Pessoa40 entrou no box no tempo:1569267949.
+Pessoa41 chegou no banheiro no tempo: 1569267953.
+Pessoa41 entrou no box no tempo:1569267953.
+Pessoa40 saiu do box no tempo:1569267954.
+Pessoa42 chegou no banheiro no tempo: 1569267957.
+Pessoa42 entrou no box no tempo:1569267957.
+Pessoa41 saiu do box no tempo:1569267958.
+Pessoa42 saiu do box no tempo:1569267962.
+Pessoa43 chegou no banheiro no tempo: 1569267963.
+Pessoa43 entrou no box no tempo:1569267963.
+Pessoa44 chegou no banheiro no tempo: 1569267965.
+Pessoa44 entrou no box no tempo:1569267965.
+Pessoa43 saiu do box no tempo:1569267968.
+Pessoa44 saiu do box no tempo:1569267970.
+Pessoa48 chegou no banheiro no tempo: 1569267982.
+Pessoa48 entrou na fila no tempo:1569267982.
+Pessoa48 entrou no box no tempo:1569267983.
+Pessoa48 saiu do box no tempo:1569267988.
+Pessoa51 chegou no banheiro no tempo: 1569267989.
+Pessoa51 entrou no box no tempo:1569267989.
+Pessoa51 saiu do box no tempo:1569267994.
+Pessoa53 chegou no banheiro no tempo: 1569268000.
+Pessoa53 entrou na fila no tempo:1569268000.
+Pessoa53 entrou no box no tempo:1569268004.
+Pessoa54 chegou no banheiro no tempo: 1569268006.
+Pessoa54 entrou no box no tempo:1569268006.
+Pessoa55 chegou no banheiro no tempo: 1569268007.
+Pessoa55 entrou no box no tempo:1569268007.
+Pessoa53 saiu do box no tempo:1569268009.
+Pessoa54 saiu do box no tempo:1569268011.
+Pessoa55 saiu do box no tempo:1569268012.
+Pessoa57 chegou no banheiro no tempo: 1569268018.
+Pessoa57 entrou no box no tempo:1569268018.
+Pessoa58 chegou no banheiro no tempo: 1569268021.
+Pessoa58 entrou no box no tempo:1569268021.
+Pessoa57 saiu do box no tempo:1569268023.
+Pessoa58 saiu do box no tempo:1569268026.
+Pessoa63 chegou no banheiro no tempo: 1569268043.
+Pessoa63 entrou na fila no tempo:1569268043.
+Pessoa63 entrou no box no tempo:1569268046.
+Pessoa63 saiu do box no tempo:1569268051.
+Pessoa69 chegou no banheiro no tempo: 1569268069.
+Pessoa69 entrou na fila no tempo:1569268069.
+Pessoa69 entrou no box no tempo:1569268074.
+Pessoa69 saiu do box no tempo:1569268079.
+Pessoa74 chegou no banheiro no tempo: 1569268092.
+Pessoa74 entrou na fila no tempo:1569268092.
+Pessoa74 entrou no box no tempo:1569268094.
+Pessoa75 chegou no banheiro no tempo: 1569268095.
+Pessoa75 entrou no box no tempo:1569268095.
+Pessoa74 saiu do box no tempo:1569268099.
+Pessoa75 saiu do box no tempo:1569268100.
+Pessoa76 chegou no banheiro no tempo: 1569268102.
+Pessoa76 entrou no box no tempo:1569268102.
+Pessoa76 saiu do box no tempo:1569268107.
+Pessoa81 chegou no banheiro no tempo: 1569268126.
+Pessoa81 entrou no box no tempo:1569268126.
+Pessoa83 chegou no banheiro no tempo: 1569268130.
+Pessoa83 entrou no box no tempo:1569268130.
+Pessoa81 saiu do box no tempo:1569268131.
+Pessoa83 saiu do box no tempo:1569268135.
+Pessoa86 chegou no banheiro no tempo: 1569268139.
+Pessoa86 entrou na fila no tempo:1569268139.
+Pessoa88 chegou no banheiro no tempo: 1569268148.
+Pessoa88 entrou no box no tempo:1569268148.
+Pessoa86 entrou no box no tempo:1569268148.
+Pessoa86 saiu do box no tempo:1569268153.
+Pessoa88 saiu do box no tempo:1569268153.
+Pessoa90 chegou no banheiro no tempo: 1569268154.
+Pessoa90 entrou no box no tempo:1569268154.
+Pessoa90 saiu do box no tempo:1569268159.
+Pessoa94 chegou no banheiro no tempo: 1569268167.
+Pessoa94 entrou no box no tempo:1569268167.
+Pessoa96 chegou no banheiro no tempo: 1569268171.
+Pessoa96 entrou no box no tempo:1569268171.
+Pessoa94 saiu do box no tempo:1569268172.
+Pessoa96 saiu do box no tempo:1569268176.
+Pessoa97 chegou no banheiro no tempo: 1569268178.
+Pessoa97 entrou na fila no tempo:1569268178.
+Pessoa97 entrou no box no tempo:1569268181.
+Pessoa97 saiu do box no tempo:1569268186.
+Pessoa100 chegou no banheiro no tempo: 1569268188.
+Pessoa100 entrou na fila no tempo:1569268188.
+Pessoa100 entrou no box no tempo:1569268192.
+Pessoa102 chegou no banheiro no tempo: 1569268196.
+Pessoa102 entrou no box no tempo:1569268196.
+Pessoa100 saiu do box no tempo:1569268197.
+Pessoa104 chegou no banheiro no tempo: 1569268198.
+Pessoa104 entrou no box no tempo:1569268198.
+Pessoa102 saiu do box no tempo:1569268201.
+Pessoa104 saiu do box no tempo:1569268203.
+Pessoa105 chegou no banheiro no tempo: 1569268204.
+Pessoa105 entrou na fila no tempo:1569268204.
+Pessoa105 entrou no box no tempo:1569268208.
+Pessoa105 saiu do box no tempo:1569268213.
+Pessoa113 chegou no banheiro no tempo: 1569268242.
+Pessoa113 entrou no box no tempo:1569268242.
+Pessoa113 saiu do box no tempo:1569268247.
+Pessoa115 chegou no banheiro no tempo: 1569268255.
+Pessoa115 entrou no box no tempo:1569268255.
+Pessoa115 saiu do box no tempo:1569268260.
+Pessoa122 chegou no banheiro no tempo: 1569268288.
+Pessoa122 entrou no box no tempo:1569268288.
+Pessoa124 chegou no banheiro no tempo: 1569268290.
+Pessoa124 entrou no box no tempo:1569268290.
+Pessoa122 saiu do box no tempo:1569268293.
+Pessoa124 saiu do box no tempo:1569268295.
+Pessoa125 chegou no banheiro no tempo: 1569268297.
+Pessoa125 entrou na fila no tempo:1569268297.
+Pessoa128 chegou no banheiro no tempo: 1569268310.
+Pessoa125 entrou no box no tempo:1569268310.
+Pessoa128 entrou no box no tempo:1569268310.
+Pessoa125 saiu do box no tempo:1569268315.
+Pessoa128 saiu do box no tempo:1569268315.
+Pessoa131 chegou no banheiro no tempo: 1569268329.
+Pessoa131 entrou no box no tempo:1569268329.
+Pessoa131 saiu do box no tempo:1569268334.
+Pessoa134 chegou no banheiro no tempo: 1569268341.
+Pessoa134 entrou no box no tempo:1569268341.
+Pessoa135 chegou no banheiro no tempo: 1569268345.
+Pessoa135 entrou no box no tempo:1569268345.
+Pessoa134 saiu do box no tempo:1569268346.
+Pessoa135 saiu do box no tempo:1569268350.
+Pessoa141 chegou no banheiro no tempo: 1569268375.
+Pessoa141 entrou no box no tempo:1569268375.
+Pessoa142 chegou no banheiro no tempo: 1569268380.
+Pessoa142 entrou no box no tempo:1569268380.
+Pessoa141 saiu do box no tempo:1569268380.
+Pessoa142 saiu do box no tempo:1569268385.
+Pessoa143 chegou no banheiro no tempo: 1569268387.
+Pessoa143 entrou no box no tempo:1569268387.
+Pessoa144 chegou no banheiro no tempo: 1569268391.
+Pessoa144 entrou no box no tempo:1569268391.
+Pessoa143 saiu do box no tempo:1569268392.
+Pessoa144 saiu do box no tempo:1569268396.
+Pessoa145 chegou no banheiro no tempo: 1569268398.
+Pessoa145 entrou no box no tempo:1569268398.
+Pessoa145 saiu do box no tempo:1569268403.
+Pessoa2 chegou no banheiro no tempo: 1569268708.
+Pessoa2 entrou na fila no tempo:1569268708.
+Pessoa4 chegou no banheiro no tempo: 1569268708.
+Pessoa4 entrou na fila no tempo:1569268708.
+Pessoa5 chegou no banheiro no tempo: 1569268708.
+Pessoa5 entrou na fila no tempo:1569268708.
+Pessoa7 chegou no banheiro no tempo: 1569268708.
+Pessoa7 entrou na fila no tempo:1569268708.
+Pessoa11 chegou no banheiro no tempo: 1569268708.
+Pessoa11 entrou na fila no tempo:1569268708.
+Pessoa13 chegou no banheiro no tempo: 1569268708.
+Pessoa13 entrou na fila no tempo:1569268708.
+Pessoa14 chegou no banheiro no tempo: 1569268708.
+Pessoa14 entrou na fila no tempo:1569268708.
+Pessoa18 chegou no banheiro no tempo: 1569268708.
+Pessoa18 entrou na fila no tempo:1569268708.
+Pessoa20 chegou no banheiro no tempo: 1569268708.
+Pessoa20 entrou na fila no tempo:1569268708.
+Pessoa15 chegou no banheiro no tempo: 1569268708.
+Pessoa15 entrou na fila no tempo:1569268708.
+Pessoa21 chegou no banheiro no tempo: 1569268708.
+Pessoa21 entrou na fila no tempo:1569268708.
+Pessoa23 chegou no banheiro no tempo: 1569268708.
+Pessoa23 entrou na fila no tempo:1569268708.
+Pessoa25 chegou no banheiro no tempo: 1569268708.
+Pessoa25 entrou na fila no tempo:1569268708.
+Pessoa28 chegou no banheiro no tempo: 1569268708.
+Pessoa28 entrou na fila no tempo:1569268708.
+Pessoa30 chegou no banheiro no tempo: 1569268708.
+Pessoa30 entrou na fila no tempo:1569268708.
+Pessoa31 chegou no banheiro no tempo: 1569268708.
+Pessoa31 entrou na fila no tempo:1569268708.
+Pessoa35 chegou no banheiro no tempo: 1569268708.
+Pessoa35 entrou na fila no tempo:1569268708.
+Pessoa36 chegou no banheiro no tempo: 1569268708.
+Pessoa36 entrou na fila no tempo:1569268708.
+Pessoa37 chegou no banheiro no tempo: 1569268708.
+Pessoa37 entrou na fila no tempo:1569268708.
+Pessoa38 chegou no banheiro no tempo: 1569268708.
+Pessoa38 entrou na fila no tempo:1569268708.
+Pessoa44 chegou no banheiro no tempo: 1569268708.
+Pessoa44 entrou na fila no tempo:1569268708.
+Pessoa48 chegou no banheiro no tempo: 1569268708.
+Pessoa48 entrou na fila no tempo:1569268708.
+Pessoa49 chegou no banheiro no tempo: 1569268708.
+Pessoa49 entrou na fila no tempo:1569268708.
+Pessoa53 chegou no banheiro no tempo: 1569268708.
+Pessoa53 entrou na fila no tempo:1569268708.
+Pessoa57 chegou no banheiro no tempo: 1569268708.
+Pessoa57 entrou na fila no tempo:1569268708.
+Pessoa58 chegou no banheiro no tempo: 1569268708.
+Pessoa58 entrou na fila no tempo:1569268708.
+Pessoa61 chegou no banheiro no tempo: 1569268708.
+Pessoa61 entrou na fila no tempo:1569268708.
+Pessoa70 chegou no banheiro no tempo: 1569268708.
+Pessoa66 chegou no banheiro no tempo: 1569268708.
+Pessoa66 entrou na fila no tempo:1569268708.
+Pessoa70 entrou na fila no tempo:1569268708.
+Pessoa73 chegou no banheiro no tempo: 1569268708.
+Pessoa73 entrou na fila no tempo:1569268708.
+Pessoa75 chegou no banheiro no tempo: 1569268708.
+Pessoa75 entrou na fila no tempo:1569268708.
+Pessoa76 chegou no banheiro no tempo: 1569268708.
+Pessoa76 entrou na fila no tempo:1569268708.
+Pessoa85 chegou no banheiro no tempo: 1569268708.
+Pessoa85 entrou na fila no tempo:1569268708.
+Pessoa87 chegou no banheiro no tempo: 1569268708.
+Pessoa87 entrou na fila no tempo:1569268708.
+Pessoa92 chegou no banheiro no tempo: 1569268708.
+Pessoa92 entrou na fila no tempo:1569268708.
+Pessoa96 chegou no banheiro no tempo: 1569268708.
+Pessoa96 entrou na fila no tempo:1569268708.
+Pessoa97 chegou no banheiro no tempo: 1569268708.
+Pessoa97 entrou na fila no tempo:1569268708.
+Pessoa99 chegou no banheiro no tempo: 1569268708.
+Pessoa99 entrou na fila no tempo:1569268708.
+Pessoa100 chegou no banheiro no tempo: 1569268708.
+Pessoa100 entrou na fila no tempo:1569268708.
+Pessoa101 chegou no banheiro no tempo: 1569268708.
+Pessoa101 entrou na fila no tempo:1569268708.
+Pessoa102 chegou no banheiro no tempo: 1569268708.
+Pessoa102 entrou na fila no tempo:1569268708.
+Pessoa106 chegou no banheiro no tempo: 1569268708.
+Pessoa106 entrou na fila no tempo:1569268708.
+Pessoa108 chegou no banheiro no tempo: 1569268708.
+Pessoa108 entrou na fila no tempo:1569268708.
+Pessoa111 chegou no banheiro no tempo: 1569268708.
+Pessoa111 entrou na fila no tempo:1569268708.
+Pessoa117 chegou no banheiro no tempo: 1569268708.
+Pessoa117 entrou na fila no tempo:1569268708.
+Pessoa122 chegou no banheiro no tempo: 1569268708.
+Pessoa122 entrou na fila no tempo:1569268708.
+Pessoa124 chegou no banheiro no tempo: 1569268708.
+Pessoa124 entrou na fila no tempo:1569268708.
+Pessoa127 chegou no banheiro no tempo: 1569268708.
+Pessoa127 entrou na fila no tempo:1569268708.
+Pessoa129 chegou no banheiro no tempo: 1569268708.
+Pessoa129 entrou na fila no tempo:1569268708.
+Pessoa131 chegou no banheiro no tempo: 1569268708.
+Pessoa131 entrou na fila no tempo:1569268708.
+Pessoa137 chegou no banheiro no tempo: 1569268708.
+Pessoa137 entrou na fila no tempo:1569268708.
+Pessoa139 chegou no banheiro no tempo: 1569268708.
+Pessoa139 entrou na fila no tempo:1569268708.
+Pessoa142 chegou no banheiro no tempo: 1569268708.
+Pessoa142 entrou na fila no tempo:1569268708.
+Pessoa143 chegou no banheiro no tempo: 1569268708.
+Pessoa143 entrou na fila no tempo:1569268708.
+Pessoa148 chegou no banheiro no tempo: 1569268708.
+Pessoa148 entrou na fila no tempo:1569268708.
+Pessoa151 chegou no banheiro no tempo: 1569268708.
+Pessoa151 entrou na fila no tempo:1569268708.
+Pessoa152 chegou no banheiro no tempo: 1569268708.
+Pessoa152 entrou na fila no tempo:1569268708.
+Pessoa153 chegou no banheiro no tempo: 1569268708.
+Pessoa153 entrou na fila no tempo:1569268708.
+Pessoa155 chegou no banheiro no tempo: 1569268708.
+Pessoa155 entrou na fila no tempo:1569268708.
+Pessoa156 chegou no banheiro no tempo: 1569268708.
+Pessoa156 entrou na fila no tempo:1569268708.
+Pessoa160 chegou no banheiro no tempo: 1569268708.
+Pessoa160 entrou na fila no tempo:1569268708.
+Pessoa163 chegou no banheiro no tempo: 1569268708.
+Pessoa163 entrou na fila no tempo:1569268708.
+Pessoa171 chegou no banheiro no tempo: 1569268708.
+Pessoa171 entrou na fila no tempo:1569268708.
+Pessoa172 chegou no banheiro no tempo: 1569268708.
+Pessoa172 entrou na fila no tempo:1569268708.
+Pessoa176 chegou no banheiro no tempo: 1569268708.
+Pessoa176 entrou na fila no tempo:1569268708.
+Pessoa179 chegou no banheiro no tempo: 1569268708.
+Pessoa179 entrou na fila no tempo:1569268708.
+Pessoa181 chegou no banheiro no tempo: 1569268708.
+Pessoa181 entrou na fila no tempo:1569268708.
+Pessoa4 entrou no box no tempo:1569268778.
+Pessoa23 entrou no box no tempo:1569268778.
+Pessoa25 entrou no box no tempo:1569268778.
+Pessoa58 entrou no box no tempo:1569268778.
+Pessoa61 entrou no box no tempo:1569268778.
+Pessoa25 saiu do box no tempo:1569268783.
+Pessoa23 saiu do box no tempo:1569268783.
+Pessoa70 entrou no box no tempo:1569268783.
+Pessoa4 saiu do box no tempo:1569268783.
+Pessoa66 entrou no box no tempo:1569268783.
+Pessoa61 saiu do box no tempo:1569268783.
+Pessoa58 saiu do box no tempo:1569268783.
+Pessoa122 entrou no box no tempo:1569268783.
+Pessoa117 entrou no box no tempo:1569268783.
+Pessoa111 entrou no box no tempo:1569268783.
+Pessoa122 saiu do box no tempo:1569268788.
+Pessoa117 saiu do box no tempo:1569268788.
+Pessoa127 entrou no box no tempo:1569268788.
+Pessoa111 saiu do box no tempo:1569268788.
+Pessoa129 entrou no box no tempo:1569268788.
+Pessoa124 entrou no box no tempo:1569268788.
+Pessoa70 saiu do box no tempo:1569268788.
+Pessoa66 saiu do box no tempo:1569268788.
+Pessoa131 entrou no box no tempo:1569268788.
+Pessoa137 entrou no box no tempo:1569268788.
+Pessoa127 saiu do box no tempo:1569268793.
+Pessoa139 entrou no box no tempo:1569268793.
+Pessoa124 saiu do box no tempo:1569268793.
+Pessoa142 entrou no box no tempo:1569268793.
+Pessoa131 saiu do box no tempo:1569268793.
+Pessoa143 entrou no box no tempo:1569268793.
+Pessoa137 saiu do box no tempo:1569268793.
+Pessoa148 entrou no box no tempo:1569268793.
+Pessoa129 saiu do box no tempo:1569268793.
+Pessoa151 entrou no box no tempo:1569268793.
+Pessoa142 saiu do box no tempo:1569268798.
+Pessoa139 saiu do box no tempo:1569268798.
+Pessoa30 entrou no box no tempo:1569268798.
+Pessoa143 saiu do box no tempo:1569268798.
+Pessoa106 entrou no box no tempo:1569268798.
+Pessoa76 entrou no box no tempo:1569268798.
+Pessoa148 saiu do box no tempo:1569268798.
+Pessoa151 saiu do box no tempo:1569268798.
+Pessoa152 entrou no box no tempo:1569268798.
+Pessoa97 entrou no box no tempo:1569268798.
+Pessoa106 saiu do box no tempo:1569268803.
+Pessoa30 saiu do box no tempo:1569268803.
+Pessoa76 saiu do box no tempo:1569268803.
+Pessoa75 entrou no box no tempo:1569268803.
+Pessoa155 entrou no box no tempo:1569268803.
+Pessoa160 entrou no box no tempo:1569268803.
+Pessoa152 saiu do box no tempo:1569268803.
+Pessoa163 entrou no box no tempo:1569268803.
+Pessoa97 saiu do box no tempo:1569268803.
+Pessoa171 entrou no box no tempo:1569268803.
+Pessoa155 saiu do box no tempo:1569268808.
+Pessoa172 entrou no box no tempo:1569268808.
+Pessoa160 saiu do box no tempo:1569268808.
+Pessoa75 saiu do box no tempo:1569268808.
+Pessoa176 entrou no box no tempo:1569268808.
+Pessoa179 entrou no box no tempo:1569268808.
+Pessoa163 saiu do box no tempo:1569268808.
+Pessoa181 entrou no box no tempo:1569268808.
+Pessoa171 saiu do box no tempo:1569268808.
+Pessoa2 entrou no box no tempo:1569268808.
+Pessoa176 saiu do box no tempo:1569268813.
+Pessoa172 saiu do box no tempo:1569268813.
+Pessoa5 entrou no box no tempo:1569268813.
+Pessoa11 entrou no box no tempo:1569268813.
+Pessoa179 saiu do box no tempo:1569268813.
+Pessoa13 entrou no box no tempo:1569268813.
+Pessoa181 saiu do box no tempo:1569268813.
+Pessoa14 entrou no box no tempo:1569268813.
+Pessoa2 saiu do box no tempo:1569268813.
+Pessoa18 entrou no box no tempo:1569268813.
+Pessoa5 saiu do box no tempo:1569268818.
+Pessoa20 entrou no box no tempo:1569268818.
+Pessoa11 saiu do box no tempo:1569268818.
+Pessoa15 entrou no box no tempo:1569268818.
+Pessoa13 saiu do box no tempo:1569268818.
+Pessoa7 entrou no box no tempo:1569268818.
+Pessoa14 saiu do box no tempo:1569268818.
+Pessoa35 entrou no box no tempo:1569268818.
+Pessoa18 saiu do box no tempo:1569268818.
+Pessoa38 entrou no box no tempo:1569268818.
+Pessoa20 saiu do box no tempo:1569268823.
+Pessoa44 entrou no box no tempo:1569268823.
+Pessoa15 saiu do box no tempo:1569268823.
+Pessoa49 entrou no box no tempo:1569268823.
+Pessoa7 saiu do box no tempo:1569268823.
+Pessoa53 entrou no box no tempo:1569268823.
+Pessoa38 saiu do box no tempo:1569268823.
+Pessoa28 entrou no box no tempo:1569268823.
+Pessoa35 saiu do box no tempo:1569268823.
+Pessoa31 entrou no box no tempo:1569268823.
+Pessoa44 saiu do box no tempo:1569268828.
+Pessoa36 entrou no box no tempo:1569268828.
+Pessoa53 saiu do box no tempo:1569268828.
+Pessoa49 saiu do box no tempo:1569268828.
+Pessoa48 entrou no box no tempo:1569268828.
+Pessoa37 entrou no box no tempo:1569268828.
+Pessoa28 saiu do box no tempo:1569268828.
+Pessoa73 entrou no box no tempo:1569268828.
+Pessoa31 saiu do box no tempo:1569268828.
+Pessoa108 entrou no box no tempo:1569268828.
+Pessoa36 saiu do box no tempo:1569268833.
+Pessoa85 entrou no box no tempo:1569268833.
+Pessoa37 saiu do box no tempo:1569268833.
+Pessoa108 saiu do box no tempo:1569268833.
+Pessoa92 entrou no box no tempo:1569268833.
+Pessoa87 entrou no box no tempo:1569268833.
+Pessoa73 saiu do box no tempo:1569268833.
+Pessoa96 entrou no box no tempo:1569268833.
+Pessoa48 saiu do box no tempo:1569268833.
+Pessoa153 entrou no box no tempo:1569268833.
+Pessoa85 saiu do box no tempo:1569268838.
+Pessoa99 entrou no box no tempo:1569268838.
+Pessoa87 saiu do box no tempo:1569268838.
+Pessoa92 saiu do box no tempo:1569268838.
+Pessoa153 saiu do box no tempo:1569268838.
+Pessoa96 saiu do box no tempo:1569268838.
+Pessoa101 entrou no box no tempo:1569268838.
+Pessoa156 entrou no box no tempo:1569268838.
+Pessoa100 entrou no box no tempo:1569268838.
+Pessoa102 entrou no box no tempo:1569268838.
+Pessoa99 saiu do box no tempo:1569268843.
+Pessoa21 entrou no box no tempo:1569268843.
+Pessoa156 saiu do box no tempo:1569268843.
+Pessoa100 saiu do box no tempo:1569268843.
+Pessoa57 entrou no box no tempo:1569268843.
+Pessoa102 saiu do box no tempo:1569268843.
+Pessoa101 saiu do box no tempo:1569268843.
+Pessoa21 saiu do box no tempo:1569268848.
+Pessoa57 saiu do box no tempo:1569268848.

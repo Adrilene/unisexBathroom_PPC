@@ -13,10 +13,10 @@ counterGen = [0,0,0]    #contador para cada gênero
 counterWait = [0,0,0]
 ocupTime = 0
 
-log = [open("logP0.txt", 'a'), open("logP1.txt", 'a'), open("logP2.txt", 'a')]
+#log = [open("logP0.txt", 'a'), open("logP1.txt", 'a'), open("logP2.txt", 'a')]
 
 semaphore = None
-mutexGender = threading.Semaphore()
+smGender = threading.BoundedSemaphore(value=1)
 genEvent = [threading.Event(),threading.Event(),threading.Event()]
 openBox = threading.Event()
 
@@ -40,104 +40,99 @@ class Person(threading.Thread):
         return gender
 
     def enterRestroom(self):
-        global N, genRestroom, waitQueue, genCondition, mutexGender, log
+        global N, genRestroom, waitQueue, genCondition, smGender, openBox
        
         if genRestroom == -1:
-            mutexGender.acquire()
+            smGender.acquire()
             genRestroom = self.gender
-            mutexGender.release()
+            smGender.release()
             genEvent[self.gender].set()
             print("Gênero banheiro: {}.".format(genRestroom))
-
-        if genRestroom != self.gender:
-            waitQueue[self.gender].append(self)
-            print("[FILA] Pessoa{} - Gênero: {} entrou na fila. Esperando gênero.".format(self.threadID, self.gender))
-            log[self.gender].write("Pessoa{} entrou na fila no tempo:{}.\n".format(self.threadID, int(time.time())))
-            genEvent[self.gender].wait()
-           
 
         if genRestroom == self.gender and N == 0:
             waitQueue[self.gender].append(self)
             print("[FILA] Pessoa{} - Gênero: {} entrou na fila. Esperando vaga.".format(self.threadID, self.gender))
-            log[self.gender].write("Pessoa{} entrou na fila no tempo:{}.\n".format(self.threadID, int(time.time())))
+            #log[self.gender].write("Pessoa{} entrou na fila no tempo:{}.\n".format(self.threadID, int(time.time())))
             openBox.wait()
-           
+            waitQueue[self.gender].remove(self)
+
+        if genRestroom != self.gender:
+            waitQueue[self.gender].append(self)
+            print("[FILA] Pessoa{} - Gênero: {} entrou na fila. Esperando gênero.".format(self.threadID, self.gender))
+            #log[self.gender].write("Pessoa{} entrou na fila no tempo:{}.\n".format(self.threadID, int(time.time())))
+            genEvent[self.gender].wait()
+        
+        if N > 0:
+            openBox.set()
+
         self.getStall()     
 
     def getStall(self):
     
-        global N, genRestroom, waitQueue, ocupTime, semaphore
-        
-        semaphore.acquire()
+        global N, genRestroom, waitQueue, ocupTime, semaphore, openBox
 
         self.waitTime = time.time() - self.waitTime
         counterWait[self.gender] += self.waitTime
-       
+        
+        semaphore.acquire()
+        N -= 1
+        if N==0:
+            openBox.clear()
+        semaphore.release()
+        
+        print("[ENTRADA] Pessoa{} - {} entrando no box. --- {} boxes livres.".format(self.threadID, self.gender, N))
+        #log[self.gender].write("Pessoa{} entrou no box no tempo:{}.\n".format(self.threadID, int(time.time())))        
         try:
             waitQueue[self.gender].remove(self)
         except(ValueError):
             pass
-
-        N -= 1    
-        if N == 0:
-            openBox.clear() 
-        
-
-        print("[ENTRADA] Pessoa{} - {} entrando no box. --- {} boxes livres.".format(self.threadID, self.gender, N))
-        log[self.gender].write("Pessoa{} entrou no box no tempo:{}.\n".format(self.threadID, int(time.time())))        
-        
-        
         time.sleep(5)
         ocupTime += 5
-
+        semaphore.acquire()
         N += 1
-        if N>=1:
+        if N == 1:
             openBox.set()
-       
-        print("[SAÍDA] Pessoa{} - {} saindo do box. --- {} boxes livres.".format(self.threadID, self.gender, N))
-        log[self.gender].write("Pessoa{} saiu do box no tempo:{}.\n".format(self.threadID, int(time.time()))) 
-        self.leaveRestroom()
-        
         semaphore.release()
-
+        print("[SAÍDA] Pessoa{} - {} saindo do box. --- {} boxes livres.".format(self.threadID, self.gender, N))
+        #log[self.gender].write("Pessoa{} saiu do box no tempo:{}.\n".format(self.threadID, int(time.time()))) 
+        self.leaveRestroom()
 
     def genderTurn(self): 
-        global genEvent, waitQueue
-        
-        if len(waitQueue[self.gender-1]) == 0 and len(waitQueue[self.gender-2]) == 0:
-            return -1
+        global genEvent
 
+        if len(waitQueue[self.gender-1]) == 0 and len(waitQueue[self.gender-2]) == 0:
+            genEvent[self.gender].clear()
+            genEvent[self.gender-1].clear()
+            genEvent[self.gender-2].clear()
+            return -1
+        
         elif len(waitQueue[self.gender-1]) == 0 and len(waitQueue[self.gender-2]) > 0:
+            genEvent[self.gender].clear()
+            genEvent[self.gender-1].clear()
+            genEvent[self.gender-2].set()
             return waitQueue[self.gender-2][0].gender
         
         elif len(waitQueue[self.gender-1]) > 0 and len(waitQueue[self.gender-2]) == 0:
+            genEvent[self.gender].clear()
+            genEvent[self.gender-1].set()
+            genEvent[self.gender-2].clear()
             return waitQueue[self.gender-1][0].gender
         
-        else: 
-            if waitQueue[self.gender-1][0].waitTime < waitQueue[self.gender-2][0].waitTime:
-                return waitQueue[self.gender-1][0].gender
-            else: 
-                return waitQueue[self.gender-2][0].gender
-        return -1
 
     def leaveRestroom(self):
 
-        global N, genRestroom, waitQueue, mutexGender
+        global N, genRestroom, waitQueue, smGender
 
         #troca de gêneros, caso não tenha ninguém do mesmo gênero da thread atual na fila
-        if N == maxB and len(waitQueue[self.gender]) == 0:
-            mutexGender.acquire()
+        if len(waitQueue[self.gender]) > 0: 
+            smGender.acquire()
             genRestroom = self.genderTurn()
-            genEvent[genRestroom].set()
-            genEvent[genRestroom-1].clear()
-            genEvent[genRestroom-2].clear()
+            smGender.release()
             print("Trocou gênero. Novo gênero: {}.".format(genRestroom))
-            mutexGender.release()
 
     def run(self):
-        global log
         print("[CHEGADA] Pessoa{} - {} chegou no banheiro.".format(self.threadID, self.gender))
-        log[self.gender].write("Pessoa{} chegou no banheiro no tempo: {}.\n".format(self.threadID, int(time.time())))
+        #log[self.gender].write("Pessoa{} chegou no banheiro no tempo: {}.\n".format(self.threadID, int(time.time())))
         self.enterRestroom()
 
 def menu():
@@ -163,19 +158,19 @@ def menu():
         P = 200
 
     maxB = N
-    semaphore = threading.Semaphore(N)
+    semaphore = threading.BoundedSemaphore(value=N)
     print("\n\n")
         
 def main():
-    global log
+
     
-    tempoExec = time.time()
     threadID = 1
     threadList = []
 
     menu()
 
     print("{} boxes e {} Pessoas".format(N, P))
+    
     for i in range(P):
         
         random.seed()
@@ -189,14 +184,14 @@ def main():
     for t in threadList:
         t.join()
 
-    for i in log:
-        i.close()
+    #for i in log:
+    #    i.close()
     tempoExec = time.time() - tempoExec
     print("\n\n############")
     print("Tempo de execução: {}min {:.2f}s".format(int(tempoExec/60),tempoExec%60))
     for i in range(3):
         print("Pessoas do Gênero {}: {}. Tempo médio de espera: {}min{:.2f}s".format(i,counterGen[i],int((counterWait[i]/counterGen[i])/60), (counterWait[i]/counterGen[i])%60))
-    print("Taxa de Ocupação: {:.2f}".format(ocupTime/tempoExec))
+    print("Taxa de Ocupação: {:.2f}%".format(ocupTime/tempoExec))
 
 if __name__ == "__main__":
     main()
