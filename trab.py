@@ -17,7 +17,8 @@ ocupTime = 0    #tempo de ocupação do banheiro
 semaphore = None
 mutexGender = threading.Semaphore()     #mutex para acesso a variável genRestroom
 genEvent = [threading.Event(),threading.Event(),threading.Event()]      #eventos que monitoram o gênero do banheiro
-turnEvent = threading.Event()
+openCondition = threading.Event()
+first = threading.Condition()
 
 class Person(threading.Thread):
 
@@ -52,6 +53,7 @@ class Person(threading.Thread):
             
             print("Banheiro Livre. Gênero do banheiro: {}.".format(genRestroom))
 
+
         if genRestroom != self.gender:
             waitQueue[self.gender].append(self)
             
@@ -64,7 +66,8 @@ class Person(threading.Thread):
 
             genEvent[self.gender].wait()
             
-        elif genRestroom == self.gender and N == 0:
+
+        if N == 0:
             if self not in waitQueue[self.gender]:
                 waitQueue[self.gender].append(self)
 
@@ -74,15 +77,24 @@ class Person(threading.Thread):
             for i in range(len(waitQueue[self.gender])):
                 print("{} ".format(waitQueue[self.gender][i].threadID), end="")
             print("]")
+            openCondition.wait()
         
-        #não deu certo
-        if len(waitQueue[self.gender])>0:
-            if waitQueue[self.gender][0] != self:
-                turnEvent.clear()
-                turnEvent.wait()
-            else: 
-                turnEvent.set()
-        self.getStall()     
+        '''if self in waitQueue[self.gender] and waitQueue[self.gender].index(self) != 0:
+            print("[FILA] I'm nor 1st Pessoa{} - Gênero: {} entrou na fila. Esperando vaga.".format(self.threadID, self.gender))
+
+            print("Fila Gênero {}: [".format(self.gender),end="")
+            for i in range(len(waitQueue[self.gender])):
+                print("{} ".format(waitQueue[self.gender][i].threadID), end="")
+            print("]")
+            openCondition.wait()
+
+        if (self in waitQueue[self.gender] and waitQueue[self.gender].index(self) == 0) or self not in waitQueue[self.gender]:'''
+        if self in waitQueue[self.gender]:
+            first.acquire()
+            first.wait_for(lambda: waitQueue[self.gender].index(self) == 0)
+            first.release()
+        self.getStall() 
+            
 
     def getStall(self):
     
@@ -97,7 +109,9 @@ class Person(threading.Thread):
         except(ValueError):
             pass
 
-        N -= 1    
+        N -= 1 
+        if N == 0:
+            openCondition.clear()   
         
         print("[ENTRADA] Pessoa {} - Gênero {} entrando no box. --- {} boxes livres.".format(self.threadID, self.gender, N))
         
@@ -112,12 +126,14 @@ class Person(threading.Thread):
             ocupTime += 5
 
         N += 1
+        openCondition.set()
        
         print("[SAÍDA] Pessoa {} - Gênero {} saindo do box. --- {} boxes livres.".format(self.threadID, self.gender, N))
         
-        semaphore.release()
         
         self.leaveRestroom()
+
+        semaphore.release()
 
     def genderTurn(self): 
         global genEvent, waitQueue
@@ -157,7 +173,7 @@ class Person(threading.Thread):
         print("[CHEGADA] Pessoa{} - {} chegou no banheiro.".format(self.threadID, self.gender))
         self.enterRestroom()
 
-def menu():
+def init():
     global N, P, maxB, semaphore
    
     print("#######################")
@@ -171,7 +187,7 @@ def menu():
     
     if op == 1:
         N = 1
-        P = 30
+        P = 60
     elif op == 2:
         N = 3
         P = 150 
@@ -190,7 +206,7 @@ def main():
     threadID = 1
     threadList = []
 
-    menu()
+    init()
     tempoExec = time.time()
 
     print("{} boxes e {} Pessoas".format(N, P))
