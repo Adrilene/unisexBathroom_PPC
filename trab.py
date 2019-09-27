@@ -17,8 +17,6 @@ ocupTime = 0    #tempo de ocupação do banheiro
 semaphore = None
 mutexGender = threading.Semaphore()     #mutex para acesso a variável genRestroom
 genEvent = [threading.Event(),threading.Event(),threading.Event()]      #eventos que monitoram o gênero do banheiro
-openCondition = threading.Event()
-first = threading.Condition()
 
 class Person(threading.Thread):
 
@@ -48,11 +46,8 @@ class Person(threading.Thread):
             mutexGender.acquire()
             genRestroom = self.gender
             mutexGender.release()
-            
             genEvent[self.gender].set()
-            
             print("Banheiro Livre. Gênero do banheiro: {}.".format(genRestroom))
-
 
         if genRestroom != self.gender:
             waitQueue[self.gender].append(self)
@@ -70,31 +65,18 @@ class Person(threading.Thread):
         if N == 0:
             if self not in waitQueue[self.gender]:
                 waitQueue[self.gender].append(self)
+                print("[FILA] Pessoa{} - Gênero: {} entrou na fila. Esperando vaga.".format(self.threadID, self.gender))
 
-            print("[FILA] Pessoa{} - Gênero: {} entrou na fila. Esperando vaga.".format(self.threadID, self.gender))
-
-            print("Fila Gênero {}: [".format(self.gender),end="")
-            for i in range(len(waitQueue[self.gender])):
-                print("{} ".format(waitQueue[self.gender][i].threadID), end="")
-            print("]")
-            openCondition.wait()
+                print("Fila Gênero {}: [".format(self.gender),end="")
+                for i in range(len(waitQueue[self.gender])):
+                    print("{} ".format(waitQueue[self.gender][i].threadID), end="")
+                print("]")
         
-        '''if self in waitQueue[self.gender] and waitQueue[self.gender].index(self) != 0:
-            print("[FILA] I'm nor 1st Pessoa{} - Gênero: {} entrou na fila. Esperando vaga.".format(self.threadID, self.gender))
-
-            print("Fila Gênero {}: [".format(self.gender),end="")
-            for i in range(len(waitQueue[self.gender])):
-                print("{} ".format(waitQueue[self.gender][i].threadID), end="")
-            print("]")
-            openCondition.wait()
-
-        if (self in waitQueue[self.gender] and waitQueue[self.gender].index(self) == 0) or self not in waitQueue[self.gender]:'''
         if self in waitQueue[self.gender]:
-            first.acquire()
-            first.wait_for(lambda: waitQueue[self.gender].index(self) == 0)
-            first.release()
-        self.getStall() 
-            
+            while waitQueue[self.gender].index(self) != 0:
+                time.sleep(random.random())
+        
+        self.getStall()     
 
     def getStall(self):
     
@@ -110,8 +92,6 @@ class Person(threading.Thread):
             pass
 
         N -= 1 
-        if N == 0:
-            openCondition.clear()   
         
         print("[ENTRADA] Pessoa {} - Gênero {} entrando no box. --- {} boxes livres.".format(self.threadID, self.gender, N))
         
@@ -126,10 +106,8 @@ class Person(threading.Thread):
             ocupTime += 5
 
         N += 1
-        openCondition.set()
        
         print("[SAÍDA] Pessoa {} - Gênero {} saindo do box. --- {} boxes livres.".format(self.threadID, self.gender, N))
-        
         
         self.leaveRestroom()
 
@@ -170,7 +148,7 @@ class Person(threading.Thread):
 
     def run(self):
         
-        print("[CHEGADA] Pessoa{} - {} chegou no banheiro.".format(self.threadID, self.gender))
+        print("[CHEGADA] Pessoa{} - Gênero {} chegou no banheiro.".format(self.threadID, self.gender))
         self.enterRestroom()
 
 def init():
@@ -179,7 +157,7 @@ def init():
     print("#######################")
     print("1 - 1 box e 60 pessoas")
     print("2 - 3 boxes e 150 pessoas")
-    print("3 - 5 boxes e 200 pessoas")
+    print("3 - 5 boxes e 300 pessoas")
     op = int(input("opção: "))
     while (op != 1 and op != 2 and op != 3):
        print("Invalido!")
@@ -193,7 +171,7 @@ def init():
         P = 150 
     elif op == 3: 
         N = 5 
-        P = 200
+        P = 300
 
     maxB = N
     semaphore = threading.Semaphore(N)
