@@ -4,6 +4,8 @@ import threading
 import time
 import random
 
+
+
 #Variáveis Globais
 N = 0   #número de boxes livres
 maxB = 0    #max boxes
@@ -14,6 +16,7 @@ counterGen = [0,0,0]    #contador para cada gênero
 counterWait = [0,0,0]   #contador para o tempo de espera de cada gênero
 ocupTime = 0    #tempo de ocupação do banheiro 
 
+#variáveis para sincronizaçãp
 semaphore = None
 mutexGender = threading.Semaphore()     #mutex para acesso a variável genRestroom
 genEvent = [threading.Event(),threading.Event(),threading.Event()]      #eventos que monitoram o gênero do banheiro
@@ -60,27 +63,31 @@ class Person(threading.Thread):
             print("]")
 
             genEvent[self.gender].wait()
+            print("Pessoa {} - {} acordei. Gênero do banheiro: {}.".format(self.threadID, self.gender, genRestroom))
             
-
         if N == 0:
             if self not in waitQueue[self.gender]:
                 waitQueue[self.gender].append(self)
-                print("[FILA] Pessoa{} - Gênero: {} entrou na fila. Esperando vaga.".format(self.threadID, self.gender))
+                print("[FILA] Pessoa {} - Gênero: {} entrou na fila. Esperando vaga.".format(self.threadID, self.gender))
 
                 print("Fila Gênero {}: [".format(self.gender),end="")
                 for i in range(len(waitQueue[self.gender])):
                     print("{} ".format(waitQueue[self.gender][i].threadID), end="")
                 print("]")
+            else: 
+                print("[FILA] Pessoa {} - Gênero: {} esperando vaga.".format(self.threadID, self.gender))
         
-        if self in waitQueue[self.gender]:
+        if self in waitQueue[self.gender] and genRestroom == self.gender:
             while waitQueue[self.gender].index(self) != 0:
-                time.sleep(random.random())
+                time.sleep(random.random())   
         
-        self.getStall()     
+        self.getStall()
 
     def getStall(self):
     
         global N, genRestroom, waitQueue, ocupTime, semaphore, counterWait
+        if genRestroom != self.gender:
+            print("fail")
         
         semaphore.acquire()
 
@@ -102,7 +109,7 @@ class Person(threading.Thread):
             print("]")
         
         time.sleep(5)
-        if N==maxB-1 or N == 1:
+        if N==maxB-1:
             ocupTime += 5
 
         N += 1
@@ -143,16 +150,16 @@ class Person(threading.Thread):
             genEvent[genRestroom].set()
             genEvent[genRestroom-1].clear()
             genEvent[genRestroom-2].clear()
-            print("Trocou gênero. Novo gênero: {}.".format(genRestroom))
+            print("Trocou gênero. Novo gênero: {}. {}   {}".format(genRestroom, genRestroom-1, genRestroom-2))
             mutexGender.release()
-
+    
     def run(self):
         
         print("[CHEGADA] Pessoa{} - Gênero {} chegou no banheiro.".format(self.threadID, self.gender))
         self.enterRestroom()
 
 def init():
-    global N, P, maxB, semaphore
+    global N, P, maxB, semaphore, genEvent 
    
     print("#######################")
     print("1 - 1 box e 60 pessoas")
@@ -175,11 +182,13 @@ def init():
 
     maxB = N
     semaphore = threading.Semaphore(N)
+    for i in genEvent:
+        i.clear()
     print("\n\n")
         
 def main():
     
-    global ocupTime, counterWait
+    global ocupTime, counterWait, N, P
 
     threadID = 1
     threadList = []
