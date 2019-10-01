@@ -4,8 +4,6 @@ import threading
 import time
 import random
 
-
-
 #Variáveis Globais
 N = 0   #número de boxes livres
 maxB = 0    #max boxes
@@ -32,24 +30,22 @@ class Person(threading.Thread):
     def genGender(self):
         random.seed()
         gender = random.randint(0,2)
-        
         while(counterGen[gender] >= P/3):
             gender = random.randint(0,2)
-        
         counterGen[gender]+=1
-        
         return gender
 
     def enterRestroom(self):
         global N, genRestroom, waitQueue, genCondition, mutexGender
 
-        self.waitTime = time.time()       
-
+        self.waitTime = time.time()      
         if genRestroom == -1:
             mutexGender.acquire()
             genRestroom = self.gender
             mutexGender.release()
             genEvent[self.gender].set()
+            genEvent[self.gender-1].clear()
+            genEvent[self.gender-2].clear()
             print("Banheiro Livre. Gênero do banheiro: {}.".format(genRestroom))
 
         if genRestroom != self.gender:
@@ -63,7 +59,6 @@ class Person(threading.Thread):
             print("]")
 
             genEvent[self.gender].wait()
-            print("Pessoa {} - {} acordei. Gênero do banheiro: {}.".format(self.threadID, self.gender, genRestroom))
             
         if N == 0:
             if self not in waitQueue[self.gender]:
@@ -77,7 +72,7 @@ class Person(threading.Thread):
             else: 
                 print("[FILA] Pessoa {} - Gênero: {} esperando vaga.".format(self.threadID, self.gender))
         
-        if self in waitQueue[self.gender] and genRestroom == self.gender:
+        if self in waitQueue[self.gender]:
             while waitQueue[self.gender].index(self) != 0:
                 time.sleep(random.random())   
         
@@ -150,7 +145,7 @@ class Person(threading.Thread):
             genEvent[genRestroom].set()
             genEvent[genRestroom-1].clear()
             genEvent[genRestroom-2].clear()
-            print("Trocou gênero. Novo gênero: {}. {}   {}".format(genRestroom, genRestroom-1, genRestroom-2))
+            print("Trocou gênero. Novo gênero: {}.".format(genRestroom, genRestroom-1, genRestroom-2))
             mutexGender.release()
     
     def run(self):
