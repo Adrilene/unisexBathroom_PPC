@@ -48,7 +48,7 @@ class Person(threading.Thread):
             genEvent[self.gender-2].clear()
             print("Banheiro Livre. Gênero do banheiro: {}.".format(genRestroom))
 
-        if genRestroom != self.gender:
+        elif genRestroom != self.gender:
             waitQueue[self.gender].append(self)
             
             print("[FILA] Pessoa{} - Gênero: {} entrou na fila. Esperando gênero.".format(self.threadID, self.gender))
@@ -81,13 +81,9 @@ class Person(threading.Thread):
     def getStall(self):
     
         global N, genRestroom, waitQueue, ocupTime, semaphore, counterWait
-        if genRestroom != self.gender:
-            print("fail")
         
         semaphore.acquire()
-
         counterWait[self.gender] += time.time() - self.waitTime
-       
         try:
             waitQueue[self.gender].remove(self)
         except(ValueError):
@@ -109,10 +105,8 @@ class Person(threading.Thread):
 
         N += 1
        
-        print("[SAÍDA] Pessoa {} - Gênero {} saindo do box. --- {} boxes livres.".format(self.threadID, self.gender, N))
-        
         self.leaveRestroom()
-
+        
         semaphore.release()
 
     def genderTurn(self): 
@@ -147,6 +141,8 @@ class Person(threading.Thread):
             genEvent[genRestroom-2].clear()
             print("Trocou gênero. Novo gênero: {}.".format(genRestroom, genRestroom-1, genRestroom-2))
             mutexGender.release()
+        
+        print("[SAÍDA] Pessoa {} - Gênero {} saindo do box. {} boxes livres.".format(self.threadID, self.gender, N))
     
     def run(self):
         
@@ -190,6 +186,7 @@ def main():
 
     init()
     tempoExec = time.time()
+    tempoG = 0 
 
     print("{} boxes e {} Pessoas".format(N, P))
     for i in range(P):
@@ -200,17 +197,21 @@ def main():
         threadList.append(myThread)
         myThread.start()
         time.sleep(t)
+        tempoG += t
+        print("Tempo de espera: {}.".format(t))
         threadID += 1
            
     for t in threadList:
         t.join()
 
     tempoExec = time.time() - tempoExec
+    tempoG = tempoG/(N-2)
     print("\n\n############")
     print("Tempo de execução: {}min {:.2f}s".format(int(tempoExec/60),tempoExec%60))
     for i in range(3):
         print("Pessoas do Gênero {}: {}. Tempo médio de espera: {}min{:.2f}s".format(i,counterGen[i],int((counterWait[i]/counterGen[i])/60), (counterWait[i]/counterGen[i])%60))
     print("Taxa de Ocupação: {:.2f}%.".format(ocupTime*100/tempoExec))
+    print("Tempo médio para gerar threads: {}.".format(tempoG))
 
 if __name__ == "__main__":
     main()
