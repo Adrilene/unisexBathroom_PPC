@@ -103,18 +103,21 @@ class Person(threading.Thread):
                 for i in range(len(waitQueue[self.gender])):
                     print("{} ".format(waitQueue[self.gender][i].threadID), end="")
                 print("]")
+
+            genEvent[self.gender].wait()
         
         if self in waitQueue[self.gender]:
             while waitQueue[self.gender].index(self) != 0:
                 time.sleep(random.random())   
         
+        bathroom.semaphore.acquire()
         self.getStall()
+        bathroom.semaphore.release()
 
     def getStall(self):
     
         global bathroom, waitQueue, counterWait
         
-        bathroom.semaphore.acquire()
         counterWait[self.gender] += time.time() - self.waitTime
         try:
             waitQueue[self.gender].remove(self)
@@ -138,13 +141,58 @@ class Person(threading.Thread):
         bathroom.N += 1
        
         self.leaveRestroom()
-        
-        bathroom.semaphore.release()
 
     def genderTurn(self): 
         global genEvent, waitQueue
         
-        if len(waitQueue[self.gender-1]) == 0 and len(waitQueue[self.gender-2]) == 0:
+        if len(waitQueue[0]) == 0 and len(waitQueue[1]) == 0 and len(waitQueue[2]) == 0:
+            return -1
+
+        if len(waitQueue[0]) == 0: 
+            if len(waitQueue[1]) > 0 and len(waitQueue[2]) > 0:
+                if waitQueue[1][0].waitTime < waitQueue[2][0].waitTime:
+                    return 1
+                elif waitQueue[1][0].waitTime > waitQueue[2][0].waitTime:
+                    return 2
+
+            if len(waitQueue[1]) > 0 and len(waitQueue[2]) == 0:
+                return 1
+            else: 
+                return 2
+
+        if len(waitQueue[1]) == 0: 
+            if len(waitQueue[0]) > 0 and len(waitQueue[2]) > 0:
+                if waitQueue[0][0].waitTime < waitQueue[2][0].waitTime:
+                    return 0
+                elif waitQueue[0][0].waitTime > waitQueue[2][0].waitTime:
+                    return 2
+
+            if len(waitQueue[0]) > 0 and len(waitQueue[2]) == 0:
+                return 0
+            else: 
+                return 2
+
+        if len(waitQueue[2]) == 0: 
+            if len(waitQueue[0]) > 0 and len(waitQueue[1]) > 0:
+                if waitQueue[0][0].waitTime < waitQueue[1][0].waitTime:
+                    return 0
+                elif waitQueue[0][0].waitTime > waitQueue[1][0].waitTime:
+                    return 1
+
+            if len(waitQueue[0]) > 0 and len(waitQueue[1]) == 0:
+                return 0
+            else: 
+                return 1
+
+        times = []
+
+        times.append(waitQueue[0][0].waitTime)
+        times.append(waitQueue[1][0].waitTime)
+        times.append(waitQueue[2][0].waitTime)
+
+        return times.index(min(times))
+
+        '''if len(waitQueue[self.gender-1]) == 0 and len(waitQueue[self.gender-2]) == 0:
             return -1
 
         elif len(waitQueue[self.gender-1]) == 0 and len(waitQueue[self.gender-2]) > 0:
@@ -157,8 +205,7 @@ class Person(threading.Thread):
             if waitQueue[self.gender-1][0].waitTime < waitQueue[self.gender-2][0].waitTime:
                 return waitQueue[self.gender-1][0].gender
             else: 
-                return waitQueue[self.gender-2][0].gender
-        return -1
+                return waitQueue[self.gender-2][0].gender'''
 
     def leaveRestroom(self):
 
@@ -166,8 +213,7 @@ class Person(threading.Thread):
         
         print("[SAÍDA] Pessoa {} - Gênero {} saindo do box. {} boxes livres.".format(self.threadID, self.gender, bathroom.N))
 
-        #troca de gêneros, caso não tenha ninguém do mesmo gênero da thread atual na fila
-        if bathroom.N == bathroom.maxB and len(waitQueue[self.gender]) == 0:
+        if bathroom.N == bathroom.maxB:
             mutexGender.acquire()
             bathroom.genRestroom = self.genderTurn()
             if bathroom.genRestroom != -1:
