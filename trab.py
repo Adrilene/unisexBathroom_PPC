@@ -1,5 +1,4 @@
 #!usr/bin/python3
-
 import threading
 import time
 import random
@@ -13,7 +12,6 @@ P = 0
 
 #variáveis para sincronizaçãp
 mutexGender = threading.Semaphore()     #mutex para acesso a variável genRestroom
-genEvent = [threading.Event(),threading.Event(),threading.Event()]      #eventos que monitoram o gênero do banheiro
 
 class Bathroom(threading.Thread):
     
@@ -68,21 +66,29 @@ class Person(threading.Thread):
         counterGen[gender]+=1
         return gender
 
-    def enterRestroom(self):
-        global bathroom, waitQueue, genCondition, mutexGender
+    def tests(self):
+        global bathroom, waitQueue, mutexGender
+            
+        if bathroom.N > 0 and bathroom.genRestroom == self.gender:
+            return True
 
-        self.waitTime = time.time()      
+        if len(waitQueue[self.gender]) > 0: 
+            if self not in waitQueue[self.gender]:
+                waitQueue[self.gender].append(self)
+                return False
+            elif bathroom.N > 0 and bathroom.genRestroom == self.gender and waitQueue[self.gender].index(self) < bathroom.N:
+                return True
         
+    def enterRestroom(self):
+        global bathroom, waitQueue, mutexGender
+
         if bathroom.genRestroom == -1:
             mutexGender.acquire()
             bathroom.genRestroom = self.gender
             mutexGender.release()
-            genEvent[self.gender].set()
-            genEvent[self.gender-1].clear()
-            genEvent[self.gender-2].clear()
             print("Banheiro Livre. Gênero do banheiro: {}.".format(bathroom.genRestroom))
 
-        elif bathroom.genRestroom != self.gender:
+        if bathroom.genRestroom != self.gender:
             waitQueue[self.gender].append(self)
             
             print("[FILA] Pessoa{} - Gênero: {} entrou na fila.".format(self.threadID, self.gender))
@@ -91,9 +97,7 @@ class Person(threading.Thread):
             for i in range(len(waitQueue[self.gender])):
                 print("{} ".format(waitQueue[self.gender][i].threadID), end="")
             print("]")
-
-            genEvent[self.gender].wait()
-            
+                
         if bathroom.N == 0:
             if self not in waitQueue[self.gender]:
                 waitQueue[self.gender].append(self)
@@ -103,17 +107,13 @@ class Person(threading.Thread):
                 for i in range(len(waitQueue[self.gender])):
                     print("{} ".format(waitQueue[self.gender][i].threadID), end="")
                 print("]")
-
-            genEvent[self.gender].wait()
         
-        if self in waitQueue[self.gender]:
-            while waitQueue[self.gender].index(self) != 0:
-                time.sleep(random.random())   
-        
-        bathroom.semaphore.acquire()
-        self.getStall()
-        bathroom.semaphore.release()
-
+        with bathroom.semaphore:
+            while(not self.tests()):
+                time.sleep(random.random())
+    
+            self.getStall() 
+            
     def getStall(self):
     
         global bathroom, waitQueue, counterWait
@@ -143,7 +143,7 @@ class Person(threading.Thread):
         self.leaveRestroom()
 
     def genderTurn(self): 
-        global genEvent, waitQueue
+        global waitQueue
         
         if len(waitQueue[0]) == 0 and len(waitQueue[1]) == 0 and len(waitQueue[2]) == 0:
             return -1
@@ -152,7 +152,7 @@ class Person(threading.Thread):
             if len(waitQueue[1]) > 0 and len(waitQueue[2]) > 0:
                 if waitQueue[1][0].waitTime < waitQueue[2][0].waitTime:
                     return 1
-                elif waitQueue[1][0].waitTime > waitQueue[2][0].waitTime:
+                else:
                     return 2
 
             if len(waitQueue[1]) > 0 and len(waitQueue[2]) == 0:
@@ -164,7 +164,7 @@ class Person(threading.Thread):
             if len(waitQueue[0]) > 0 and len(waitQueue[2]) > 0:
                 if waitQueue[0][0].waitTime < waitQueue[2][0].waitTime:
                     return 0
-                elif waitQueue[0][0].waitTime > waitQueue[2][0].waitTime:
+                else:
                     return 2
 
             if len(waitQueue[0]) > 0 and len(waitQueue[2]) == 0:
@@ -176,7 +176,7 @@ class Person(threading.Thread):
             if len(waitQueue[0]) > 0 and len(waitQueue[1]) > 0:
                 if waitQueue[0][0].waitTime < waitQueue[1][0].waitTime:
                     return 0
-                elif waitQueue[0][0].waitTime > waitQueue[1][0].waitTime:
+                else:
                     return 1
 
             if len(waitQueue[0]) > 0 and len(waitQueue[1]) == 0:
@@ -184,28 +184,15 @@ class Person(threading.Thread):
             else: 
                 return 1
 
-        times = []
+        if len(waitQueue[0]) > 0 and len(waitQueue[1]) > 0 and len(waitQueue[2]) > 0:
 
-        times.append(waitQueue[0][0].waitTime)
-        times.append(waitQueue[1][0].waitTime)
-        times.append(waitQueue[2][0].waitTime)
+            times = []
 
-        return times.index(min(times))
+            times.append(waitQueue[0][0].waitTime)
+            times.append(waitQueue[1][0].waitTime)
+            times.append(waitQueue[2][0].waitTime)
 
-        '''if len(waitQueue[self.gender-1]) == 0 and len(waitQueue[self.gender-2]) == 0:
-            return -1
-
-        elif len(waitQueue[self.gender-1]) == 0 and len(waitQueue[self.gender-2]) > 0:
-            return waitQueue[self.gender-2][0].gender
-        
-        elif len(waitQueue[self.gender-1]) > 0 and len(waitQueue[self.gender-2]) == 0:
-            return waitQueue[self.gender-1][0].gender
-        
-        else: 
-            if waitQueue[self.gender-1][0].waitTime < waitQueue[self.gender-2][0].waitTime:
-                return waitQueue[self.gender-1][0].gender
-            else: 
-                return waitQueue[self.gender-2][0].gender'''
+            return times.index(min(times))
 
     def leaveRestroom(self):
 
@@ -213,19 +200,17 @@ class Person(threading.Thread):
         
         print("[SAÍDA] Pessoa {} - Gênero {} saindo do box. {} boxes livres.".format(self.threadID, self.gender, bathroom.N))
 
+        #troca de gêneros, caso não tenha ninguém do mesmo gênero da thread atual na fila
         if bathroom.N == bathroom.maxB:
             mutexGender.acquire()
             bathroom.genRestroom = self.genderTurn()
-            if bathroom.genRestroom != -1:
-                genEvent[bathroom.genRestroom].set()
-                genEvent[bathroom.genRestroom-1].clear()
-                genEvent[bathroom.genRestroom-2].clear()
             print("Trocou gênero. Novo gênero: {}.".format(bathroom.genRestroom, bathroom.genRestroom-1, bathroom.genRestroom-2))
             mutexGender.release()
     
     def run(self):
         
         print("[CHEGADA] Pessoa{} - Gênero {} chegou no banheiro.".format(self.threadID, self.gender))
+        self.waitTime = time.time()
         self.enterRestroom()
 
 def init():
